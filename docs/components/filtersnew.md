@@ -155,10 +155,9 @@ None
 
 This is the normal flow of things:
 
-1 Call createFilteredGallery
- 1 Get data from categories spreadsheet (2 sheets)
- 3 Call formatGalleryItems - Generate html for all items
- 4 Call makeFilterBoxes - Generate flexbox html for checkboxes
+- Call createFilteredGallery
+ - Get data from categories spreadsheet (2 sheets)
+ - Call formatGalleryItems - Generate html for all items
+ - Call makeFilterBoxes - Generate flexbox html for checkboxes
   -  Call getSearchParams - for possible groups override
- 5 Call filterGalleryShowvals - show hide items based on checkboxes
-
+ - Call filterGalleryShowvals - show hide items based on checkboxes
