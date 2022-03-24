@@ -173,3 +173,21 @@ None
     </tr>
   </tbody>
 </table>
+
+**Programer Notes**
+
+This is the normal flow of things:
+
+- Call ***filterSelections***
+  - if lazy then wait for lazy plugin to finish
+  - Call ***showFilterSelections***
+    - Get data from categories spreadsheet (1 sheet)
+      - Sheet *Categories* - lists groups and associated category names
+    - Navigate items in generated html 
+    - Build new html for flexbox filter checkboxes
+    - Biild output for items 
+    - Call ***filter_showvals***
+    - Call ***filter_values***
+      - Set up on-change event to call ***filter_showvals***
+
+  
