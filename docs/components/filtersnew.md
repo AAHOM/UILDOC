@@ -33,14 +33,18 @@ Filter summary blocks based on assigned categories.  The summary block filter fu
 </squarespace:query>
 <div id="collectionData"></div>
 ``` 
-The above example has 2 groups ('grades,outreach'), comma separated, of category selections.
+In the above example:
 
-- grades: will be a group of grades checkboxes, labeled "Grades".  
-- outreach: will be a group of outreach checkboxes with the label "Outreach". 
+- **outreach-1** is the slug assigned to the outreach blog
+- **#collectionData** is the selector for the div where filter and items should be placed. 
+- **{@|json}** is SquareSpace notation and must be exactly like this. 
+- **'grades,outreach'** parameter is a list of groups, comma separated. Must match a valid list from the categories spreadsheet. 
+ - grades: will be a group of grades checkboxes, labeled "Grades".  
+ - outreach: will be a group of outreach checkboxes with the label "Outreach". 
 
 **Overrides:**
 
-None
+URL parameter "groups", ie. "?groups=grades,outreach"
 
 **Usage:**
 
