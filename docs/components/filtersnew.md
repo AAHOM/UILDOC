@@ -157,6 +157,8 @@ This is the normal flow of things:
 
 - Call *createFilteredGallery*
   - Get data from categories spreadsheet (2 sheets)
+    - Sheet *Categories* - lists groups and associated category names
+    - Sheet *Groups* - lists valid group names, label and default type (checkbox/radio)
   - Call *formatGalleryItems* - Generate html for all items
     - Call *adjustGalleryItemHeight* - adjust height based on image width
     - Set up window resize event with call to *adjustGalleryItemHeight*
