@@ -155,13 +155,13 @@ None
 
 This is the normal flow of things:
 
-- Call createFilteredGallery
+- Call *createFilteredGallery*
   - Get data from categories spreadsheet (2 sheets)
-  - Call formatGalleryItems - Generate html for all items
-    - adjustGalleryItemHeight - adjust height based on image width
-    - Set up window resize event with call to adjustGalleryItemHeight
-  - Call makeFilterBoxes - Generate flexbox html for checkboxes
-    -  Call getSearchParams - for possible groups override
-  - Call filterGalleryShowvals - show hide items based on checkboxes
-    - Call intersection to apply add/or group/checkbox logic
-  - Set up "on change" event for checkboxs to call filterGalleryShowvals
+  - Call *formatGalleryItems* - Generate html for all items
+    - Call *adjustGalleryItemHeight* - adjust height based on image width
+    - Set up window resize event with call to *adjustGalleryItemHeight*
+  - Call *makeFilterBoxes* - Generate flexbox html for checkboxes
+    -  Call *getSearchParams* - for possible groups override
+  - Call *filterGalleryShowvals* - show hide items based on checkboxes
+    - Call *intersection* to apply add/or group/checkbox logic
+  - Set up "on change" event for checkboxs to call *filterGalleryShowvals*
