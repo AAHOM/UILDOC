@@ -158,6 +158,7 @@ This is the normal flow of things:
 - Call createFilteredGallery
  - Get data from categories spreadsheet (2 sheets)
  - Call formatGalleryItems - Generate html for all items
+  - adjustGalleryItemHeight - adjust height based on image width
  - Call makeFilterBoxes - Generate flexbox html for checkboxes
   -  Call getSearchParams - for possible groups override
  - Call filterGalleryShowvals - show hide items based on checkboxes
