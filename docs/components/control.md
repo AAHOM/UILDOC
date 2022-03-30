@@ -121,3 +121,43 @@ $(document).ready(function() {
 </script>
 <div id="teamContainer"></div>
 ```
+
+**Example Flex Boxes code block**
+
+This code block can be found on the *Home* page.  It will display the flex boxes from the **Flex Boxes** blog with slug name "**flex-boxes**", using the display type of "**flexboxes**".  Attitional attributes are currently ignored for flex boxes and not needed.  
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#flexBoxes',
+    'flex-boxes',
+    'flexboxes'
+  );
+})
+</script>
+<div id="flexBoxes"></div>
+```
+
+**Example Carousel code block**
+
+This code block can be found on the *Home* page, for Announcements.  It will display the an infinite carousel from the **Announcements** blog with slug name "**announcements**", using the display type of "**carousel**".  
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#announce',
+    'announcements',
+    'carousel',
+    {filter: false, 
+     showcount: false,
+     groups: '',
+     showcats: false,
+     findcats: '',
+     dots: false} 
+   );
+})
+</script>
+<div id="announce"></div>
+```
