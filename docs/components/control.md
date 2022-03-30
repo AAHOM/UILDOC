@@ -124,7 +124,7 @@ $(document).ready(function() {
 <div id="teamContainer"></div>
 ```
 
-**Example Flex Boxes code block for Home Page**
+**Example Flex Boxes code block**
 
 **Pages**: Home
 
@@ -143,7 +143,7 @@ $(document).ready(function() {
 <div id="flexBoxes"></div>
 ```
 
-**Example Carousel code block for Home Page Announcements**
+**Example Carousel code block for Announcements**
 
 **Pages**: Home
 
@@ -168,7 +168,7 @@ $(document).ready(function() {
 <div id="announce"></div>
 ```
 
-**Example Carousel code block for Home Page Promotions**
+**Example Carousel code block for Promotions**
 
 **Pages**: Home
 
