@@ -14,7 +14,27 @@ Controls the display of any blog or event collections as one of:
 - Team Members
 - Flex Boxes 
 
-**Basic Syntax**
+**Usage**
+
+*collectionControl(Selector, Collection Slug, Display Type, Attributes)*
+
+**Parameters:**
+
+<table class="ws-table-all notranslate"> 
+  <tbody>
+    <tr class="tableTop">
+     <td style="width:120px">Parameter</td>
+     <td>Description</td>
+    </tr>
+    <tr>
+      <td><em>Selector</em></td>
+      <td>Required.<br>jQuery selector identification where the resulting html code will be generated.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Example code block for control**
 
 ```
 <script>
