@@ -72,6 +72,11 @@ Controls the display of any blog or event collections as one of:
       <td>Defines if a count of filtered and total number of blog items is shown. Valid values are "true" or "false"</td>
     </tr>
     <tr>
+      <td>findcats</td>
+      <td>Defines a comma delimted list of categories which will be included
+      in the blog entries.</td>
+    </tr>
+    <tr>
       <td>dots</td>
       <td>Defines if navigation dots are shown below a carousel. Valid values are "true" or "false".   This is only valid for "carousel" display type, otherwise it is ignored.</td>
     </tr>
@@ -101,7 +106,7 @@ $(document).ready(function() {
 
 **Example Team Members code block**
 
-**Pages**: About Us->People
+**Pages**: About Us -> People
 
 This code block can be found on the *About Us -> People page*.   It will display team members from the **Team Members** blog with the slug name "**team-members**", using the display type "**team**".  All additional attributes are turned off so categories and filter checkboxes are not shown, as an example. 
 
@@ -145,7 +150,7 @@ $(document).ready(function() {
 
 **Example Carousel code block for Announcements**
 
-**Pages**: Home
+**Pages**: Home, Ann Arbor Hands-on Museum
 
 This code block can be found on the *Home* page, for Announcements.  It will display the an infinite carousel from the **Announcements** blog with slug name "**announcements**", using the display type of "**carousel**".  
 
@@ -172,7 +177,7 @@ $(document).ready(function() {
 
 **Pages**: Home
 
-This code block can be found on the *Home* page, for Promotions.  It will display the an infinite carousel from the **Promotions** blog with slug name "**promotions**", using the display type of "**carousel**".  
+This code block can be found on the *Home* page, for Promotions.  It will display an infinite carousel loop from the **Promotions** blog with slug name "**promotions**", using the display type of "**carousel**".  No categories, total count or filtering will be shown. 
 
 ```
 <script>
@@ -191,4 +196,29 @@ $(document).ready(function() {
 })
 </script>
 <div id="promodiv"></div>
+```
+
+**Example Carousel code block for Site Features**
+
+**Pages**: Ann Arbor Hands-on Museum
+
+This code block can be found on the *Home* page, for Promotions.  It will display an infinite carousel loop from the **Site Features** blog with slug name "**site-features**", using the display type of "**carousel**".  No categories, total count or filtering will be shown.  In this case, we are only showing blog entries that have a category of "Ann Arnor". 
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#featuresdiv',
+    'site-features',
+    'carousel',
+    {filter: false, 
+     showcount: false,
+     groups: '',
+     showcats: false,
+     findcats: 'Ann Arbor',
+     dots: false} 
+   );
+})
+</script>
+<div id="featuresdiv"></div>
 ```
