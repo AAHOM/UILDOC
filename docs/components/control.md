@@ -45,6 +45,39 @@ Controls the display of any blog or event collections as one of:
   </tbody>
 </table>
 
+**Attributes:**
+
+<table class="ws-table-all notranslate"> 
+  <tbody>
+    <tr class="tableTop">
+     <td style="width:120px">Attribute</td>
+     <td>Description</td>
+    </tr>
+    <tr>
+      <td>filter</td>
+      <td>Defines if filtering checkboxes (or radio buttons) are to be displayed.  Valid values are "true" or "false".  </td>
+    </tr>
+    <tr>
+      <td>groups</td>
+      <td>Overrides the default groups used for filtering.  This is a comma delimeted
+      list of group names found in the categories spreadsheet.</td>
+    </tr>
+    <tr>
+      <td>showcats</td>
+      <td>Defines if categories are shown for each blog entry. Valid values
+      are "true" or "false".</td>
+    </tr>
+    <tr>
+      <td>showcount</td>
+      <td>Defines if a count of filtered and total number of blog items is shown. Valid values are "true" or "false"</td>
+    </tr>
+    <tr>
+      <td>dots</td>
+      <td>Defines if navigation dots are shown below a carousel. Valid values are "true" or "false".   This is only valid for "carousel" display type, otherwise it is ignored.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 **Example code block for control**
 
