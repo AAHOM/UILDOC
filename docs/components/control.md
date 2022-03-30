@@ -101,6 +101,8 @@ $(document).ready(function() {
 
 **Example Team Members code block**
 
+**Pages**: About Us->People
+
 This code block can be found on the *About Us -> People page*.   It will display team members from the **Team Members** blog with the slug name "**team-members**", using the display type "**team**".  All additional attributes are turned off so categories and filter checkboxes are not shown, as an example. 
 
 ```
@@ -122,7 +124,9 @@ $(document).ready(function() {
 <div id="teamContainer"></div>
 ```
 
-**Example Flex Boxes code block**
+**Example Flex Boxes code block for Home Page**
+
+**Pages**: Home
 
 This code block can be found on the *Home* page.  It will display the flex boxes from the **Flex Boxes** blog with slug name "**flex-boxes**", using the display type of "**flexboxes**".  Attitional attributes are currently ignored for flex boxes and not needed.  
 
@@ -139,7 +143,9 @@ $(document).ready(function() {
 <div id="flexBoxes"></div>
 ```
 
-**Example Carousel code block**
+**Example Carousel code block for Home Page Announcements**
+
+**Pages**: Home
 
 This code block can be found on the *Home* page, for Announcements.  It will display the an infinite carousel from the **Announcements** blog with slug name "**announcements**", using the display type of "**carousel**".  
 
@@ -160,4 +166,29 @@ $(document).ready(function() {
 })
 </script>
 <div id="announce"></div>
+```
+
+**Example Carousel code block for Home Page Promotions**
+
+**Pages**: Home
+
+This code block can be found on the *Home* page, for Promotions.  It will display the an infinite carousel from the **Promotions** blog with slug name "**promotions**", using the display type of "**carousel**".  
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#promodiv',
+    'promotions',
+    'carousel',
+    {filter: false, 
+     showcount: false,
+     groups: '',
+     showcats: false,
+     findcats: '',
+     dots: false} 
+   );
+})
+</script>
+<div id="promodiv"></div>
 ```
