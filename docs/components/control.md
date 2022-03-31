@@ -289,8 +289,6 @@ $(document).ready(function() {
 <div id="filterField"></div>
 ```
 
-distance-learning-1
-
 **Example Grid code block for Distance Learning Blog**
 
 **Pages**: 
