@@ -106,7 +106,9 @@ $(document).ready(function() {
 
 **Example Team Members code block**
 
-**Pages**: About Us -> People
+**Pages**: 
+
+- About Us -> People
 
 This code block can be found on the *About Us -> People page*.   It will display team members from the **Team Members** blog with the slug name "**team-members**", using the display type "**team**".  All additional attributes are turned off so categories and filter checkboxes are not shown, as an example. 
 
@@ -131,7 +133,9 @@ $(document).ready(function() {
 
 **Example Flex Boxes code block**
 
-**Pages**: Home
+**Pages**: 
+
+- Home
 
 This code block can be found on the *Home* page.  It will display the flex boxes from the **Flex Boxes** blog with slug name "**flex-boxes**", using the display type of "**flexboxes**".  Attitional attributes are currently ignored for flex boxes and not needed.  
 
@@ -150,7 +154,11 @@ $(document).ready(function() {
 
 **Example Carousel code block for Announcements**
 
-**Pages**: Home, Ann Arbor Hands-on Museum
+**Pages**: 
+
+- Home, Ann Arbor Hands-on Museum
+- Visit -> Leslie Science & Nature Center
+- Visit -> Challenger Learning Center (filter unity)
 
 This code block can be found on the *Home* page, for Announcements.  It will display the an infinite carousel from the **Announcements** blog with slug name "**announcements**", using the display type of "**carousel**".  
 
@@ -175,7 +183,9 @@ $(document).ready(function() {
 
 **Example Carousel code block for Promotions**
 
-**Pages**: Home
+**Pages**: 
+
+- Home
 
 This code block can be found on the *Home* page, for Promotions.  It will display an infinite carousel loop from the **Promotions** blog with slug name "**promotions**", using the display type of "**carousel**".  No categories, total count or filtering will be shown. 
 
@@ -200,7 +210,11 @@ $(document).ready(function() {
 
 **Example Carousel code block for Site Features**
 
-**Pages**: Ann Arbor Hands-on Museum
+**Pages**: 
+
+- Visit -> Ann Arbor Hands-on Museum (filter Ann Arbor)
+- Visit -> Leslie Science & Nature Center (filter Leslie Center)
+- Visit -> Yankee Air Museum (filter Yankee)
 
 This code block can be found on the *Home* page, for Promotions.  It will display an infinite carousel loop from the **Site Features** blog with slug name "**site-features**", using the display type of "**carousel**".  No categories, total count or filtering will be shown.  In this case, we are only showing blog entries that have a category of "Ann Arnor". 
 
@@ -222,3 +236,82 @@ $(document).ready(function() {
 </script>
 <div id="featuresdiv"></div>
 ```
+
+**Example Grid code block for Outreach Blog**
+
+**Pages**: 
+
+- Learn -> Outreach 
+
+This code block can be found on the *Learn -> Outreach* page, for Outreach.  It will display a grid format of the blog entries in slug name **outreach-1**, using the display type of **grid**.  Filtering is specified by the group names, which will display checkboxes for **Grades** and **Outreach**.   
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#filterOutreach',
+    'outreach-1',
+    'grid',
+    {filter: true, 
+     groups: 'grades,outreach',
+     showcats: true,
+     showcount: true,
+     dots: false}
+  );
+})
+</script>
+<div id="filterOutreach"></div>
+```
+
+**Example Grid code block for Field Trips Blog**
+
+**Pages**: 
+
+- Learn -> Field Trips
+
+This code block can be found on the *Learn -> Outreach* page, for Outreach.  It will display a grid format of the blog entries in slug name **field-trips-1**, using the display type of **grid**.  Filtering is specified by the group names, which will display checkboxes for **Field** group.   
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#filterField',
+    'field-trips-1',
+    'grid',
+    {filter: true, 
+     groups: 'field',
+     showcats: true,
+     showcount: true,
+     dots: false}
+  );
+})
+</script>
+<div id="filterField"></div>
+```
+
+distance-learning-1
+
+**Example Grid code block for Distance Learning Blog**
+
+**Pages**: 
+
+- Learn -> Distance Learning
+
+This code block can be found on the *Learn -> Distance Learning* page, for Distance Learning.  It will display a grid format of the blog entries in slug name **distance-learning-1**, using the display type of **grid**.  Filtering is specified by the group names, which will display checkboxes for **Field** group.   
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#filterDistance',
+    'distance-learning-1',
+    'grid',
+    {filter: true, 
+     groups: 'grades,distance',
+     showcats: true,
+     showcount: true,
+     dots: false}
+  );
+})
+</script>
+<div id="filterDistance"></div>
