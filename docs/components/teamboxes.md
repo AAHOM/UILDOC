@@ -7,140 +7,73 @@ nav_order: 4
 
 ### Team Members
 
-The team_members custom function grabs data from a Google spreadsheet (teams) and dynamically builds a list of all team members, ordered by last name, first name.  Each team member is displayed in a separate flex box with name and title.  Hovering over team member displays the members profile, if provided.   Clicking on the team member displays the details in a modal box.  It uses the spreadsheet information to get the associated team member information. 
+A list of team members found in the SquareSpace blog "Team Members" can be displayed via the custom function ***collectionControl*** by embedding a code block on a page as follows:
 
-***Cook book***
-- Edit the page
-- Click a "+" sign where you want to insert 
-- Select "Code"
-- Paste the following code block
-- Adust parameters as needed
-
-**Code block for team members**
 ```
 <script>
-$( document ).ready(function() {
-    // SelectorID
-    do_team_members('#teamContainer'); 
-});
+$(document).ready(function() {
+  collectionControl(
+    '#teamContainer',
+    'team-members',
+    'team', 
+    {filter: false, 
+     showcount: false,
+     groups: '',
+     showcats: false,
+     findcats: '',
+     dots: true}
+  );
+})
 </script>
 <div id="teamContainer"></div>
-``` 
+```
 
-**Overrides:**
-
-None
-
-
-**Usage:**
-
-*do_team_members(SelectorID)*
-
-**Parameters:**
+**Attribute defaults:**
 
 <table class="ws-table-all notranslate"> 
   <tbody>
     <tr class="tableTop">
-     <td style="width:120px">Parameter</td>
+     <td style="width:120px">Attribute</td>
+     <td style="width:120px">Default</td>
      <td>Description</td>
     </tr>
     <tr>
-      <td><em>Selector</em></td>
-      <td>Required.<br>jQuery selector identification where the resulting html code will be generated.</td>
+      <td>filter</td>
+      <td>false</td>
+      <td>Defines if filtering checkboxes (or radio buttons) are to be displayed.  Valid values are "true" or "false".  </td>
+    </tr>
+    <tr>
+      <td>groups</td>
+      <td>''</td>
+      <td>Overrides the default groups used for filtering.  This is a comma delimeted
+      list of group names found in the categories spreadsheet.</td>
+    </tr>
+    <tr>
+      <td>showcats</td>
+      <td>false</td>
+      <td>Defines if categories are shown for each blog entry. Valid values
+      are "true" or "false".</td>
+    </tr>
+    <tr>
+      <td>showcount</td>
+      <td>false</td>
+      <td>Defines if a count of filtered and total number of blog items is shown. Valid values are "true" or "false"</td>
+    </tr>
+    <tr>
+      <td>findcats</td>
+      <td>''</td>
+      <td>Defines a comma delimted list of categories which will be included
+      in the blog entries.</td>
     </tr>
   </tbody>
 </table>
 
-**Return Value:**
+To make changes, edit the individual team members blog entry.  The order displayed is based on the default order within the blog, which is driven by the publication date. The team member postion is defined as a "Tag" entry in the blog entry settings. 
 
-None
+See **Control** for more information, calling syntax, parameters and attributes) on this function. 
 
-**Google Spreadsheet:**
+Attribute defaults specific to the ***team-members*** collection are: 
 
-<table class="ws-table-all notranslate"> 
-  <tbody>
-    <tr class="tableTop">
-     <td style="width:120px">Detail</td>
-     <td>Description</td>
-    </tr>
-    <tr>
-      <td>Owner</td>
-      <td>aahom220@gmail.com</td>
-    </tr>
-    <tr>
-      <td>File Name</td>
-      <td>Team Members</td>
-    </tr>
-    <tr>
-      <td>Folder</td>
-      <td><a href="https://drive.google.com/drive/folders/1YaVLSr9quHsbMDChBrlZUjpI_ZeG0cG-" target="_blank">UIL_Web_Site_Docs</a></td>
-    </tr>
-    <tr>
-      <td>Link</td>
-      <td><a href="https://docs.google.com/spreadsheets/d/1hiPd3cJMf_JOr3Z4RnR3XA6-Z927OSJhxJJgYXix448/edit#gid=0" target="_blank">Google Calendar Spreadsheet</a></td>
-    </tr>
-    <tr>
-      <td>ID</td>
-      <td>1hiPd3cJMf_JOr3Z4RnR3XA6-Z927OSJhxJJgYXix448</td>
-    </tr>
-    <tr>
-      <td>Sheet Name</td>
-      <td>Members</td>
-    </tr>
-  </tbody>
-</table>
-
-**Spreadsheet Fields**
-
-<table class="ws-table-all notranslate"> 
-  <tbody>
-    <tr class="tableTop">
-    <td style="width:20px">Column</td>
-    <td style="width:120px">Label</td>
-    <td>Description</td>
-    </tr>
-    <tr>
-    <td>A</td>
-    <td>First Name</td>
-    <td>Team member first name</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>Last Name</td>
-    <td>Team member last name</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>Organization</td>
-    <td>Organization code, aahom, leslie, etc.  This is currently not used.</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>Unused</td>
-    <td>Extra field not used</td>
-    </tr>
-    <tr>
-    <td>E</td>
-    <td>Title</td>
-    <td>Position or responsibility in organization</td>
-    </tr>
-    <tr>
-    <td>F</td>
-    <td>Hide</td>
-    <td>If = Yes, Hide the team member from display.</td>
-  </tr>
-    <tr>
-    <td>G</td>
-    <td>Image URL</td>
-    <td>Full URL to the team member image</td>
-    </tr>
-    <tr>
-    <td>G</td>
-    <td>Bio Excerpt</td>
-    <td>Team members bio</td>
-    </tr>
-  </tbody>
-</table>
 
 **Example Screenshot**
 
