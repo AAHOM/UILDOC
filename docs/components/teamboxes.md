@@ -28,7 +28,7 @@ $(document).ready(function() {
 <div id="teamContainer"></div>
 ```
 
-**Attribute defaults:**
+Attribute defaults specific to the ***team-members*** collection are: 
 
 <table class="ws-table-all notranslate"> 
   <tbody>
@@ -71,8 +71,6 @@ $(document).ready(function() {
 To make changes, edit the individual team members blog entry.  The order displayed is based on the default order within the blog, which is driven by the publication date. The team member postion is defined as a "Tag" entry in the blog entry settings. 
 
 See **Control** for more information, calling syntax, parameters and attributes) on this function. 
-
-Attribute defaults specific to the ***team-members*** collection are: 
 
 
 **Example Screenshot**
