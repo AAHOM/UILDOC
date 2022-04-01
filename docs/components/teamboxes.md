@@ -21,7 +21,7 @@ $(document).ready(function() {
      groups: '',
      showcats: false,
      findcats: '',
-     dots: true}
+     dots: false}
   );
 })
 </script>
