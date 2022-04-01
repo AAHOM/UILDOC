@@ -110,3 +110,7 @@ summary block defined as follows:
 **Team member detail**
 
 ![Alt Team Member Detail](../../assets/images/team_member_detail.jpg "Team Member Detail")
+
+**Team Backup Summary Block**
+
+![Alt Team Backup Summary](../../assets/images/teambackupblock.jpg "Team Backup Summary")
