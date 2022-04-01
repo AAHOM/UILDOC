@@ -5,7 +5,7 @@ parent: Components
 nav_order: 4
 ---
 
-### Team Members
+### Team Members Custom Display
 
 A list of team members found in the SquareSpace blog "Team Members" can be displayed via the custom function ***collectionControl*** by embedding a code block on a page as follows:
 
@@ -76,6 +76,31 @@ See **Control** for more information, calling syntax, parameters and attributes)
 
 In the event that the ***collectionControl*** function fails, or does not work due to changes in SquareSpace, or unforseen problems.  Replace the code block with a standard 
 summary block defined as follows: 
+
+***Cook book***
+- Edit the page
+- Click a "+" sign where you want to insert 
+- Select "Summary"
+- Under "Content"
+  - Select a Page = Team Members
+  - Primary MetaData = "Tags"
+  - Secondary MetaData = None
+  - Filter Items = no categories selected
+- Under "Design"
+  - Select "Grid"
+  - Aspect Radio = 2:3 Standard (Vertical)
+  - Text = M, left adjusted
+  - Title = On
+  - Featured Image = On
+  - Excerpt = On
+  - Read More Link = On
+  - Metadata Position = Below Title
+  - Under "Size and Spacing"
+    - Column Width = 190px
+    - Gutter Width = 60px
+    - Use Column numbers.. = Off
+- Save changes
+
 
 
 **Example Screenshot**
