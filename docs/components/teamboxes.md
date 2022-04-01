@@ -72,6 +72,11 @@ To make changes, edit the individual team members blog entry.  The order display
 
 See **Control** for more information, calling syntax, parameters and attributes) on this function. 
 
+### Team Members Backup Plan
+
+In the event that the ***collectionControl*** function fails, or does not work due to changes in SquareSpace, or unforseen problems.  Replace the code block with a standard 
+summary block defined as follows: 
+
 
 **Example Screenshot**
 
