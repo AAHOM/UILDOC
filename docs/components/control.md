@@ -242,6 +242,7 @@ $(document).ready(function() {
 **Pages**: 
 
 - Learn -> Outreach 
+- About Us -> Jobs List
 
 This code block can be found on the *Learn -> Outreach* page, for Outreach.  It will display a grid format of the blog entries in slug name **outreach-1**, using the display type of **grid**.  Filtering is specified by the group names, which will display checkboxes for **Grades** and **Outreach**.   
 
@@ -369,6 +370,7 @@ $(document).ready(function() {
 **Pages**: 
 
 - Leslie Science & Nature Center
+- About Us -> Calendars
 
 This code block can be found on the *Leslie* page(s), for maps and directions.  It will display a map information from the blog entries in slug name **reference-data/calendars**, using the display type of **calendars**.    
 
@@ -379,14 +381,12 @@ $(document).ready(function() {
     '#calendarsOut',
     '',
     'calendars',
-    {filter: false, 
-     single: true,
-     groups: '',
-     showcats: false,
-     showcount: false,
-     dots: false}
+    {activetab: 2,
+     collapsed: true}
   );
 })
 </script>
-```
 <div id="calendarsOut"></div>
+
+
+```
