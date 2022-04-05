@@ -314,3 +314,79 @@ $(document).ready(function() {
 </script>
 <div id="filterDistance"></div>
 ```
+
+**Example Locations code block for Directions Blog**
+
+**Pages**: 
+
+- About Us -> Directions
+
+This code block can be found on the *About Us -> Directions* page, for Directions.  It will display a maps and directions of the blog entries in slug name **reference-data/location-maps**, using the display type of **locations**.    
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#locationOut',
+    '',
+    'locations',
+    {filter: false, 
+     groups: '',
+     showcats: false,
+     showcount: false,
+     dots: false}
+  );
+})
+</script>
+<div id="locationOut"></div>
+```
+
+**Example Address code block for Reference-data address**
+
+**Pages**: 
+
+- Home
+- Leslie Science & Nature Center
+
+This code block can be found on the *Home, Leslie* page(s), for Address, hours and admission information.  It will display a address information from the blog entries in slug name **reference-data/address-hours**, using the display type of **address**.    
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#addressOut',
+    '',
+    'address',
+    {museum: 'aahom'}
+  );
+})
+</script>
+<div id="addressOut"></div>
+```
+
+**Example Calendar code block for Reference-data calendars**
+
+**Pages**: 
+
+- Leslie Science & Nature Center
+
+This code block can be found on the *Leslie* page(s), for maps and directions.  It will display a map information from the blog entries in slug name **reference-data/calendars**, using the display type of **calendars**.    
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#calendarsOut',
+    '',
+    'calendars',
+    {filter: false, 
+     single: true,
+     groups: '',
+     showcats: false,
+     showcount: false,
+     dots: false}
+  );
+})
+</script>
+```
+<div id="calendarsOut"></div>
