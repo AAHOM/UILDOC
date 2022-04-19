@@ -90,7 +90,45 @@ $( document ).ready(function() {
 
 **Reference Data**
 
-*reference-data blog: Donor Wall*
+*reference-data blog: Donor Wall (code block)*
+*reference-data blog: Donor Wall (gallery block)*
+
+*Code Block* is a standard CSV file, including the header row.   All fields are
+separated by commas.   Blank lines, and lines where the first field is blank
+are ignored.  Columns are Min, Name, Total donors, Endowment, Recent Year.
+Rows where the "Min" value is a zero are considered notes and will be placed in the
+footnote section.
+
+**CSV Donor File:**
+
+<table class="ws-table-all notranslate">
+  <tbody>
+    <tr class="tableTop">
+     <td style="width:120px">Column</td>
+     <td>Description</td>
+    </tr>
+    <tr>
+      <td>Min</td>
+      <td>The total donation dollar amount, or the breakpoint amount</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>The donor full name as it should show</td>
+    </tr>
+    <tr>
+      <td>Total donors</td>
+      <td>Number of donors in this grouping, normally only used for "Anonymous"</td>
+    </tr>
+    <tr>
+      <td>Endowment</td>
+      <td>"Yes", "No" or null.   Yes indicates that this donation is a endowment.</td>
+    </tr>
+    <tr>
+      <td>Recent Year</td>
+      <td>Not used at the moment</td>
+    </tr>
+  </tbody>
+</table>
 
 
 **Example Screenshot**
