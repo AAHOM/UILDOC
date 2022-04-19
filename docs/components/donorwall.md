@@ -69,10 +69,6 @@ Lists of donors in accordian style by defined breakpoints.
   </tbody>
 </table>
 
-**Reference Data**
-
-*reference-data blog: Donor Wall*
-
 **Example code block for control**
 
 ```
@@ -91,6 +87,11 @@ $( document ).ready(function() {
 </script>
 <div id="donorWall"></div>
 ```
+
+**Reference Data**
+
+*reference-data blog: Donor Wall*
+
 
 **Example Screenshot**
 
