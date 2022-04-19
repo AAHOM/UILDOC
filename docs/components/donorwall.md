@@ -11,6 +11,10 @@ List of donors
 
 Lists of donors in accordian style by defined breakpoints.
 
+**Used On Pages**
+
+*About Us -> Our Supporters*
+
 **Usage**
 
 *collectionControl(Selector, Collection Slug, Display Type, Attributes)*
