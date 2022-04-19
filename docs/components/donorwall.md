@@ -56,11 +56,11 @@ Lists of donors in accordian style by defined breakpoints.
     </tr>
     <tr>
       <td>collapsable</td>
-      <td>Must be "true" or "false", default is "false"</td>
+      <td>Defines if the entire accordian can be collapsed into a single link.  This is different than the individual accordian of the breakpoints.  Must be "true" or "false", default is "false"</td>
     </tr>
     <tr>
       <td>collapsed</td>
-      <td>Must be "true" or "false", default is "true"</td>
+      <td>This is in reference to the individual breakpoints.  Normally only the first one is expended on entry.  Must be "true" or "false", default is "true"</td>
     </tr>
     <tr>
       <td>title</td>
