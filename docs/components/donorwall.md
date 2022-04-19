@@ -13,7 +13,7 @@ Lists of donors in accordian style by defined breakpoints.
 
 **Used On Pages**
 
-*About Us -> Our Supporters*
+*Support -> Our Supporters*
 
 **Usage**
 
@@ -69,6 +69,9 @@ Lists of donors in accordian style by defined breakpoints.
   </tbody>
 </table>
 
+**Reference Data**
+
+*reference-data blog: Donor Wall*
 
 **Example code block for control**
 
