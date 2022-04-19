@@ -91,4 +91,4 @@ $( document ).ready(function() {
 
 **Example Screenshot**
 
-![Alt Donor Wall](../../assets/images/donor_wall.jpg "Donor Wall")
+![Alt Donor Wall](../../assets/images/oursupporters.jpg "Donor Wall")
