@@ -66,6 +66,12 @@ Lists of donors in accordian style by defined breakpoints.
       <td>title</td>
       <td>The title that will be displayed if collapsable</td>
     </tr>
+    <tr>
+      <td>breakpoints</td>
+      <td>This is an array of integer values which
+      defines the breakpoints and minimum value
+    to qualify.  I.e. breakpoints: [5000,10000,50000] would include all donations of 5000 and above, grouping them into three sections.  (1) 5000 - 9999, (2) 10000 - 49999 and (3) 50000 - Above.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -81,7 +87,8 @@ $( document ).ready(function() {
     'donorwall',
     {collapsable: false,
      collapsed: true,
-     title: "This is the title"}
+     title: "This is the title",
+     breakpoints: [1, 1000, 5000, 10000, 100000]}
   );
 });
 </script>
