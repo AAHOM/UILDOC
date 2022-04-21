@@ -55,12 +55,33 @@ Lists of donors in accordian style by defined breakpoints.
      <td>Description</td>
     </tr>
     <tr>
-      <td>collapsable</td>
-      <td>Defines if the entire accordian can be collapsed into a single link.  This is different than the individual accordian of the breakpoints.  Must be "true" or "false", default is "false"</td>
+      <td><em>Collapasble</em></td>
+      <td>Optional.
+        <ul>
+          <li>True=Can be collapsed or expanded (Default)</li>
+          <li>False=Not collapsable</li><li>true=Can be collapsed or expanded (Default)</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td>collapsed</td>
-      <td>This is in reference to the individual breakpoints.  Normally only the first one is expended on entry.  Must be "true" or "false", default is "true"</td>
+      <td><em>Collapsed</em></td>
+      <td>Optional.<br>
+      Collapsable must be set to true, otherwise this paramter is ignored.
+        <ul>
+          <li>True=Initially collapsed</li>
+          <li>False=Initially expanded (default)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><em>openfirst</em></td>
+      <td>Optional.<br>
+      Determins if the first accordian group is initially expanded or not
+        <ul>
+          <li>True=Initially collapsed</li>
+          <li>False=Initially expanded (default)</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>title</td>
@@ -70,7 +91,8 @@ Lists of donors in accordian style by defined breakpoints.
       <td>breakpoints</td>
       <td>This is an array of integer values which
       defines the breakpoints and minimum value
-    to qualify.  I.e. breakpoints: [5000,10000,50000] would include all donations of 5000 and above, grouping them into three sections.  (1) 5000 - 9999, (2) 10000 - 49999 and (3) 50000 - Above.</td>
+    to qualify.  Default is breakpoints: [
+    1,1000,5000, 10000, 25000, 50000, 100000, 250000, 500000, 1000000].</td>
     </tr>
   </tbody>
 </table>
@@ -85,10 +107,14 @@ $( document ).ready(function() {
     '#donorWall',
     '',
     'donorwall',
-    {collapsable: false,
-     collapsed: true,
-     title: "This is the title",
-     breakpoints: [1, 1000, 5000, 10000, 100000]}
+    {
+      collapsable: false,
+      collapsed: true,
+      title: "This is the title",
+      breakpoints:
+        [1,1000,5000, 10000, 25000,
+        50000, 100000, 250000, 500000, 1000000]
+    }
   );
 });
 </script>
