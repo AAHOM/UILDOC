@@ -29,15 +29,6 @@ $( document ).ready(function() {
 </script>
 <div id="faqsDiv"></div>
 ```
-*Note:* This example will place the resulting html code in the #faqsDiv selector (Selector).  The second tab (ActiveTab) will be selected (Leslie Science).  Since Single is set as false, all museum tabs will be visible.  If Single was set to true then only Leslie Science would be showing.  OpenFirst is set to true, which says that the first question will be automatically open on the initial display (unless on mobile). Collapsable is set to true, which says to add an expand/collapse toggle link above the tabs.  Collapsed being false, says that the tabs will be initially expanded when page is first visited.
-
-**Overrides:**
-
-You can dynamically override *ActiveTab* by adding a parameter to the linking url as:
-
-```
-?tab=n  (where n is a number from 1-4, see ActiveTab below)
-```
 
 **Usage:**
 
@@ -146,86 +137,34 @@ You can dynamically override *ActiveTab* by adding a parameter to the linking ur
 
 None
 
-**Google Spreadsheet:  NOT USED**
+**Reference Data**
 
-<table class="ws-table-all notranslate"> 
-  <tbody>
-    <tr class="tableTop">
-     <td style="width:120px">Detail</td>
-     <td>Description</td>
-    </tr>
-    <tr>
-      <td>Owner</td>
-      <td>aahom220@gmail.com</td>
-    </tr>
-    <tr>
-      <td>File Name</td>
-      <td>FAQs</td>
-    </tr>
-    <tr>
-      <td>Folder</td>
-      <td><a href="https://drive.google.com/drive/folders/1YaVLSr9quHsbMDChBrlZUjpI_ZeG0cG-" target="_blank">UIL_Web_Site_Docs</a></td>
-    </tr>
-    <tr>
-      <td>Link</td>
-      <td><a href="https://docs.google.com/spreadsheets/d/1f3G-ECzjt8p-czZNPyUQGXG8NND016Nue5QypQTf6PQ/edit#gid=0" target="_blank">FAQs Spreadsheet</a></td>
-    </tr>
-    <tr>
-      <td>ID</td>
-      <td>1f3G-ECzjt8p-czZNPyUQGXG8NND016Nue5QypQTf6PQ</td>
-    </tr>
-    <tr>
-      <td>Sheet Name</td>
-      <td>FAQS</td>
-    </tr>
-  </tbody>
-</table>
+*reference-data blog: FAQS (markdown block)*
 
-**Spreadsheet Fields**
+*Markdown Block* is a SquareSpace markdown block.  Each museum starts with an h3
+header mark (### MuseumName).  The questions and answers follow as an unordered list, with the question at level 1 and the answer at level 2.  I.e.
 
-<table class="ws-table-all notranslate"> 
-  <tbody>
-    <tr class="tableTop">
-    <td style="width:20px">Column</td>
-    <td style="width:120px">Label</td>
-    <td>Description</td>
-    </tr>
-    <tr>
-    <td>A</td>
-    <td>List</td>
-    <td>The museum code
-    <ul>
-          <li>unity=Unity in learning general</li>
-          <li>aahom=Ann Arbor Hands On</li>
-          <li>leslie=Leslie Science</li>
-          <li>yankee=Yankee Air Museum</li>
-          <li>experience=Experience Center</li>
-          <li>challenger=Challenger Learning center</li>
-        </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>Category</td>
-    <td>Not used</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>Hide</td>
-    <td>Hide this question if value=Yes</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>Question</td>
-    <td>The faq question</td>
-  </tr>
-  <tr>
-    <td>E</td>
-    <td>Answer</td>
-    <td>The answer</td>
-    </tr>
-  </tbody>
-</table>
+```
+### unity
+
+- General Information
+  - Unity in LearningYour gateway to hands-on discovery, ...
+- How do I find an activity for my child
+  - Answer
+- Is my admissions fee valid at all mustems
+  - Answer
+- Where do I find information for educators
+  - Answer
+
+### aahom
+```
+**Overrides:**
+
+You can dynamically override *ActiveTab* by adding a parameter to the linking url as:
+
+```
+?tab=n  (where n is a number from 1-4, see ActiveTab below)
+```
 
 **Example Screenshot**
 
