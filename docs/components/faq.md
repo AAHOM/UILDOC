@@ -144,6 +144,14 @@ None
 *Markdown Block* is a SquareSpace markdown block.  Each museum starts with an h3
 header mark (### MuseumName).  The questions and answers follow as an unordered list, with the question at level 1 and the answer at level 2.  I.e.
 
+Where **MuseumName** is one of:
+- unity
+- aahom
+- leslie
+- experience
+- challenger
+- camp
+
 ```
 ### unity
 
