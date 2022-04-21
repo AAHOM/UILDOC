@@ -153,6 +153,9 @@ Where **MuseumName** is one of:
 - camp
 
 ```
+
+**Example:**
+
 ### unity
 
 - General Information
