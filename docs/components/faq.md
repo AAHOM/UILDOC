@@ -152,10 +152,9 @@ Where **MuseumName** is one of:
 - challenger
 - camp
 
-```
-
 **Example:**
 
+```
 ### unity
 
 - General Information
