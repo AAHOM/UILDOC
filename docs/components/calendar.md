@@ -7,41 +7,19 @@ nav_order: 2
 
 ### Calendar of Events
 
-The calendar custom function grabs data from a Google spreadsheet (calendar) and embeds Google calendars within tabbed list on the page.  It uses the spreadsheet information to get the associated Google ID, iframe embed code, museum and title.
+The calendar custom function grabs data from the reference-data blog "Calendars"
 
-***Cook book***
-- Edit the page
-- Click a "+" sign where you want to insert 
-- Select "Code"
-- Paste the following code block
-- Adust parameters as needed
+**Used On Pages**
 
-**Code block for calendar of events**
-```
-<script>
-$( document ).ready(function() { 
-  // selector, activeTab, single, collapsable, collapsed 
-  build_calendars('#calendarContainer',1,false, true, false);
-});
-</script>
-<div id="calendarContainer"></div>
-``` 
+*About Us -> Calendars*
 
-**Overrides:**
+**Usage**
 
-You can dynamically override *ActiveTab* by adding a parameter to the linking url as:
-
-```
-?tab=n  (where n is a number from 0-4, see ActiveTab below)
-```
-
-**Usage:**
-
-*build_calendars(Selector, Activetab, Expanded)*
+*collectionControl(Selector, Collection Slug, Display Type, Attributes)*
 
 **Parameters:**
 
-<table class="ws-table-all notranslate"> 
+<table class="ws-table-all notranslate">
   <tbody>
     <tr class="tableTop">
      <td style="width:120px">Parameter</td>
@@ -49,10 +27,33 @@ You can dynamically override *ActiveTab* by adding a parameter to the linking ur
     </tr>
     <tr>
       <td><em>Selector</em></td>
-      <td>Required.<br>jQuery selector identification where the resulting html code will be generated.</td>
+      <td>Required.<br>jQuery selector identification where the resulting html code will be generated.  Note that the selector must be unique on the page.</td>
     </tr>
-    <tr class="w3-white">
-      <td><em>ActiveTab</em></td>
+    <tr>
+      <td><em>Collection Slug</em></td>
+      <td>No defined collection is needed, leave blank.</td>
+    </tr>
+    <tr>
+      <td><em>Display Type</em></td>
+      <td>Required.<br>Identifies the display type requested.  For calendars must be "calendars".  These are case sensitive parameters. </td>
+    </tr>
+    <tr>
+      <td><em>Attributes</em></td>
+      <td>Optional.<br>Identifies parameters to override default values.  The parameters are passed in a object array of key/value pairs.  Each display type has different default values as described below. </td>
+    </tr>
+  </tbody>
+</table>
+
+**Attributes:**
+
+<table class="ws-table-all notranslate">
+  <tbody>
+    <tr class="tableTop">
+     <td style="width:120px">Attribute</td>
+     <td>Description</td>
+    </tr>
+    <tr>
+      <td>ActiveTab</td>
       <td>Optional.
         <ul>
           <li>0=All museums (Default)</li>
@@ -64,16 +65,21 @@ You can dynamically override *ActiveTab* by adding a parameter to the linking ur
      </td>
     </tr>
     <tr>
-      <td><em>Single</em></td>
-      <td>Optional.
+      <td>single</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><em>openfirst</em></td>
+      <td>Optional.<br>
+      Determins if the first accordian group is initially expanded or not
         <ul>
-          <li>True=Show only the active museum tab.</li>
-          <li>False=All museums (Default)</li>
+          <li>True=Initially collapsed</li>
+          <li>False=Initially expanded (default)</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td><em>Collapasble</em></td>
+      <td>Collapasble</td>
       <td>Optional.
         <ul>
           <li>True=Can be collapsed or expanded (Default)</li>
@@ -91,8 +97,67 @@ You can dynamically override *ActiveTab* by adding a parameter to the linking ur
         </ul>
       </td>
     </tr>
+    <tr>
+      <td>showPrint</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>title</td>
+      <td>The title that will be displayed if collapsable</td>
+    </tr>
+    <tr>
+      <td>showName</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
+
+**Example code block for control**
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#calendarsOut',
+    '',
+    'calendars',
+    {activetab: 1,
+     single: false,
+     openFirst: false,
+     collapsable: false,
+     collapsed: false,
+     title: "View Calendars",
+     showPrint: false,
+     showTabs: false,
+     showTitle: false,
+     showName: false,
+     showNav: true,
+     showDate: true,
+     showTz: true,
+     mode: "MONTH",
+     showCalendars: false}
+  );
+})
+</script>
+<div id="calendarsOut"></div>
+```
+
+**Reference Data**
+
+*reference-data blog: Donor Wall (code block)*
+
+**Overrides:**
+
+You can dynamically override *ActiveTab* by adding a parameter to the linking url as:
+
+```
+?tab=n  (where n is a number from 0-4, see ActiveTab below)
+```
+
 
 **Return Value:**
 
