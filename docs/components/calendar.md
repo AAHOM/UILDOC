@@ -69,7 +69,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
     </tr>
     <tr>
       <td>single</td>
-      <td></td>
+      <td>Only show the active tab</td>
       <td>False</td>
     </tr>
     <tr>
