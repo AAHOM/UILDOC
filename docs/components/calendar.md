@@ -206,7 +206,8 @@ $(document).ready(function() {
     </tr>
     <tr>
       <td>Museum</td>
-      <td>Museum abbreviation namet</td>
+      <td>Museum abbreviation name, one of "unity", "aahom", "leslie",
+      "challenger", "experience"</td>
     </tr>
     <tr>
       <td>Calendar ID</td>
