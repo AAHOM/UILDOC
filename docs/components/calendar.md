@@ -111,7 +111,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
     </tr>
     <tr>
       <td>showPrint</td>
-      <td>Google calendar parameter to show print linke.</td>
+      <td>Google calendar parameter to show print link.</td>
       <td>False</td>
     </tr>
     <tr>
