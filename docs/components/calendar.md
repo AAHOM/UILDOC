@@ -196,6 +196,29 @@ $(document).ready(function() {
 
 *reference-data blog: Calendars (code block)*
 
+**CSV Calendar File:**
+
+<table class="ws-table-all notranslate">
+  <tbody>
+    <tr class="tableTop">
+     <td style="width:120px">Column</td>
+     <td>Description</td>
+    </tr>
+    <tr>
+      <td>Museum</td>
+      <td>Museum abbreviation namet</td>
+    </tr>
+    <tr>
+      <td>Calendar ID</td>
+      <td>ID from Google Calendars</td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td>Link to related page</td>
+    </tr>
+  </tbody>
+</table>
+
 **Overrides:**
 
 You can dynamically override *ActiveTab* by adding a parameter to the linking url as:
