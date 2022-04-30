@@ -206,8 +206,15 @@ $(document).ready(function() {
     </tr>
     <tr>
       <td>Museum</td>
-      <td>Museum abbreviation name, one of aahom", "leslie",
-      "challenger", "experience", "yankee"</td>
+      <td>Museum abbreviation name, one of:
+      <ul>
+        <li>aahom</li>
+        <li>leslie</li>
+        <li>challenger</li>
+        <li>experience</li>
+        <li>yankee</li>
+      </ul>
+    </td>
     </tr>
     <tr>
       <td>Calendar ID</td>
