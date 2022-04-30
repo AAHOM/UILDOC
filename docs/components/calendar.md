@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Calendars <span class="new">(Updated)</span>
+title: Calendars <span class="new">(04/30/22)</span>
 parent: Components 
 nav_order: 2
 ---
@@ -12,6 +12,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
 **Used On Pages**
 
 *About Us -> Calendars*
+*Visit -> Leslie*
 
 **Usage**
 
@@ -98,20 +99,48 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
       </td>
     </tr>
     <tr>
-      <td>showPrint</td>
-      <td></td>
-    </tr>
-    <tr>
       <td>title</td>
       <td>The title that will be displayed if collapsable</td>
     </tr>
     <tr>
-      <td>showName</td>
-      <td></td>
+      <td>showPrint</td>
+      <td>Google calendar parameter to show print linke.  default = false</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
+      <td>showTabs</td>
+      <td>Google calendar parameter to show week, month, agenda tabs.  default = false</td>
+    </tr>
+    <tr>
+      <td>showTitle</td>
+      <td>Google calendar parameter to show calendar title.  default = false</td>
+    </tr>
+    <tr>
+      <td>showName</td>
+      <td>Google calendar parameter to show calendar name.  default = false</td>
+    </tr>
+    <tr>
+      <td>showNav</td>
+      <td>Google calendar parameter to show next page navigation.  default = true</td>
+    </tr>
+    <tr>
+      <td>showDate</td>
+      <td>Google calendar parameter to show date.  default = true</td>
+    </tr>
+    <tr>
+      <td>showTz</td>
+      <td>Google calendar parameter to show time zone.  default = true</td>
+    </tr>
+    <tr>
+      <td>showCalendars</td>
+      <td>Google calendar parameter to show dropdown menu of calendar list, default = false</td>
+    </tr>
+    <tr>
+      <td>mode</td>
+      <td>Calendar mode, MONTH, WEEK, AGENDA.   Deafult = MONTH</td>
+    </tr>
+    <tr>
+      <td>ctz</td>
+      <td>Time zone, default=America%2FNew_York</td>
     </tr>
   </tbody>
 </table>
@@ -148,7 +177,7 @@ $(document).ready(function() {
 
 **Reference Data**
 
-*reference-data blog: Donor Wall (code block)*
+*reference-data blog: Calendars (code block)*
 
 **Overrides:**
 
@@ -162,88 +191,6 @@ You can dynamically override *ActiveTab* by adding a parameter to the linking ur
 **Return Value:**
 
 None
-
-**Google Spreadsheet:**
-
-<table class="ws-table-all notranslate"> 
-  <tbody>
-    <tr class="tableTop">
-     <td style="width:120px">Detail</td>
-     <td>Description</td>
-    </tr>
-    <tr>
-      <td>Owner</td>
-      <td>aahom220@gmail.com</td>
-    </tr>
-    <tr>
-      <td>File Name</td>
-      <td>Google Calendars</td>
-    </tr>
-    <tr>
-      <td>Folder</td>
-      <td><a href="https://drive.google.com/drive/folders/1YaVLSr9quHsbMDChBrlZUjpI_ZeG0cG-" target="_blank">UIL_Web_Site_Docs</a></td>
-    </tr>
-    <tr>
-      <td>Link</td>
-      <td><a href="https://docs.google.com/spreadsheets/d/1i5EjZCpxI4UnvXyMYXCLyLP9tSCNt0PZYemaU6f6XtU/edit#gid=0" target="_blank">Google Calendar Spreadsheet</a></td>
-    </tr>
-    <tr>
-      <td>ID</td>
-      <td>1i5EjZCpxI4UnvXyMYXCLyLP9tSCNt0PZYemaU6f6XtU</td>
-    </tr>
-    <tr>
-      <td>Sheet Name</td>
-      <td>Calendars</td>
-    </tr>
-  </tbody>
-</table>
-
-**Spreadsheet Fields**
-
-<table class="ws-table-all notranslate"> 
-  <tbody>
-    <tr class="tableTop">
-    <td style="width:20px">Column</td>
-    <td style="width:120px">Label</td>
-    <td>Description</td>
-    </tr>
-    <tr>
-    <td>A</td>
-    <td>Order</td>
-    <td>Order calendars should be displayed</td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>Museum</td>
-    <td>Museum code, aahom, lesli etc</td>
-  </tr>
-  <tr>
-    <td>C</td>
-    <td>Name</td>
-    <td>Short name assoiciated with museum</td>
-  </tr>
-  <tr>
-    <td>D</td>
-    <td>Hide</td>
-    <td>Checked or Yes=Hide this museum when displaying calendars.</td>
-    </tr>
-    <tr>
-    <td>E</td>
-    <td>Title</td>
-    <td>Long name associated with museum</td>
-    </tr>
-    <tr>
-    <td>F</td>
-    <td>iFrame</td>
-    <td>The html iFrame code to display this calendar in monthly display.</td>
-  </tr>
-    <tr>
-    <td>G</td>
-    <td>After</td>
-    <td>Text to display as footer after calendar</td>
-    </tr>
-  </tbody>
-</table>
 
 **Calendar desktop view**
 
