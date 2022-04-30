@@ -88,7 +88,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
       <td>Optional.
         <ul>
           <li>True=Can be collapsed or expanded (Default)</li>
-          <li>False=Not collapsable</li><li>true=Can be collapsed or expanded (Default)</li>
+          <li>False=Not collapsable</li>
         </ul>
       </td>
       <td>True</td>
