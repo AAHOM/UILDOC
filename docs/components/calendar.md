@@ -70,6 +70,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
     <tr>
       <td>single</td>
       <td></td>
+      <td>False</td>
     </tr>
     <tr>
       <td><em>openfirst</em></td>
@@ -80,6 +81,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
           <li>False=Initially expanded (default)</li>
         </ul>
       </td>
+      <td>False</td>
     </tr>
     <tr>
       <td>Collapasble</td>
@@ -89,6 +91,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
           <li>False=Not collapsable</li><li>true=Can be collapsed or expanded (Default)</li>
         </ul>
       </td>
+      <td>True</td>
     </tr>
     <tr>
       <td><em>Collapsed</em></td>
@@ -99,50 +102,62 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
           <li>False=Initially expanded (default)</li>
         </ul>
       </td>
+      <td>False</td>
     </tr>
     <tr>
       <td>title</td>
       <td>The title that will be displayed if collapsable</td>
+      <td>View Calendars</td>
     </tr>
     <tr>
       <td>showPrint</td>
-      <td>Google calendar parameter to show print linke.  default = false</td>
+      <td>Google calendar parameter to show print linke.</td>
+      <td>False</td>
     </tr>
     <tr>
       <td>showTabs</td>
-      <td>Google calendar parameter to show week, month, agenda tabs.  default = false</td>
+      <td>Google calendar parameter to show week, month, agenda tabs.</td>
+      <td>False</td>
     </tr>
     <tr>
       <td>showTitle</td>
-      <td>Google calendar parameter to show calendar title.  default = false</td>
+      <td>Google calendar parameter to show calendar title.</td>
+      <td>False</td>
     </tr>
     <tr>
       <td>showName</td>
-      <td>Google calendar parameter to show calendar name.  default = false</td>
+      <td>Google calendar parameter to show calendar name.</td>
+      <td>False</td>
     </tr>
     <tr>
       <td>showNav</td>
-      <td>Google calendar parameter to show next page navigation.  default = true</td>
+      <td>Google calendar parameter to show next page navigation.</td>
+      <td>True</td>
     </tr>
     <tr>
       <td>showDate</td>
       <td>Google calendar parameter to show date.  default = true</td>
+      <td>True</td>
     </tr>
     <tr>
       <td>showTz</td>
       <td>Google calendar parameter to show time zone.  default = true</td>
+      <td>True</td>
     </tr>
     <tr>
       <td>showCalendars</td>
-      <td>Google calendar parameter to show dropdown menu of calendar list, default = false</td>
+      <td>Google calendar parameter to show dropdown menu of calendar list.</td>
+      <td>False</td>
     </tr>
     <tr>
       <td>mode</td>
-      <td>Calendar mode, MONTH, WEEK, AGENDA.   Deafult = MONTH</td>
+      <td>Calendar mode, MONTH, WEEK, AGENDA.</td>
+      <td>MONTH</td>
     </tr>
     <tr>
       <td>ctz</td>
-      <td>Time zone, default=America%2FNew_York</td>
+      <td>Time zone</td>
+      <td>America%2FNew_York</td>
     </tr>
   </tbody>
 </table>
