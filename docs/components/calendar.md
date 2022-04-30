@@ -52,6 +52,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
     <tr class="tableTop">
      <td style="width:120px">Attribute</td>
      <td>Description</td>
+     <td>Default</td>
     </tr>
     <tr>
       <td>ActiveTab</td>
@@ -64,6 +65,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
           <li>4=Challenger Learning center</li>
         </ul>
      </td>
+     <td>0</td>
     </tr>
     <tr>
       <td>single</td>
