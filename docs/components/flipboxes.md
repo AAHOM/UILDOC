@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Flip Boxes <span class="new">(4/22/22)</span>
+title: Flip Boxes <span class="new">(05/01/22)</span>
 parent: Components
 nav_order: 4
 ---
@@ -53,6 +53,7 @@ All attributes are optional, the defaults are defined.
     <tr class="tableTop">
      <td style="width:120px">Attribute</td>
      <td>Description</td>
+     <td>Default</td>
     </tr>
     <tr>
       <td>FindCats</td>
@@ -60,6 +61,7 @@ All attributes are optional, the defaults are defined.
         have one or more of these categories in order to be includede.   If this attreibute
         is not defined, then all blog entries from the defined blog will be included.
       </td>
+      <td>Null</td>
     </tr>
   </tbody>
 </table>
