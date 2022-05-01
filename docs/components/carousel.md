@@ -48,6 +48,8 @@ the entries in a horizontal carousel.
 
 **Attributes:**
 
+All attributes are optional, the defaults are defined.
+
 <table class="ws-table-all notranslate">
   <tbody>
     <tr class="tableTop">
@@ -57,31 +59,31 @@ the entries in a horizontal carousel.
     </tr>
     <tr>
       <td>Groups</td>
-      <td>Optional. This parameter only has meaning if the filter parameter is
+      <td>This parameter only has meaning if the filter parameter is
       	true.  It is a comma delimited string value of filter group names
      </td>
      <td>Null</td>
     </tr>
     <tr>
       <td>FindCats</td>
-      <td>Optional.  A comma delimted string value of defined
+      <td>A comma delimted string value of defined
       categories to include.  If not defined then this is ignored.</td>
       <td>Null</td>
     </tr>
     <tr>
       <td>Filter</td>
-      <td>Optional.  Set to true if filtering is to be enabled.</td>
+      <td>Set to true if filtering is to be enabled.</td>
       <td>False</td>
     </tr>
     <tr>
       <td>ShowCats</td>
-      <td>Optional. Set to true if category names are to be
+      <td>Set to true if category names are to be
       	displayed along with the blog entry.</td>
       <td>False</td>
     </tr>
     <tr>
       <td>Dots</td>
-      <td>Optional.  Display series of dots under the carousel to show
+      <td>Display series of dots under the carousel to show
       	the current slide and positon.
       </td>
       <td>False</td>
