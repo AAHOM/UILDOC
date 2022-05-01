@@ -48,6 +48,8 @@ Lists of donors in accordian style by defined breakpoints.
 
 **Attributes:**
 
+All attributes are optional, the defaults are defined.
+
 <table class="ws-table-all notranslate">
   <tbody>
     <tr class="tableTop">
@@ -56,7 +58,7 @@ Lists of donors in accordian style by defined breakpoints.
     </tr>
     <tr>
       <td><em>Collapasble</em></td>
-      <td>Optional.
+      <td>
         <ul>
           <li>True=Can be collapsed or expanded (Default)</li>
           <li>False=Not collapsable</li><li>true=Can be collapsed or expanded (Default)</li>
@@ -65,7 +67,7 @@ Lists of donors in accordian style by defined breakpoints.
     </tr>
     <tr>
       <td><em>Collapsed</em></td>
-      <td>Optional.<br>
+      <td>
       Collapsable must be set to true, otherwise this paramter is ignored.
         <ul>
           <li>True=Initially collapsed</li>
@@ -75,7 +77,7 @@ Lists of donors in accordian style by defined breakpoints.
     </tr>
     <tr>
       <td><em>openfirst</em></td>
-      <td>Optional.<br>
+      <td>
       Determins if the first accordian group is initially expanded or not
         <ul>
           <li>True=Initially collapsed</li>

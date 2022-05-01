@@ -63,72 +63,83 @@ $( document ).ready(function() {
 
 **Attributes:**
 
+All attributes are optional, the defaults are defined.
+
 <table class="ws-table-all notranslate">
   <tbody>
     <tr class="tableTop">
      <td style="width:120px">Attribute</td>
      <td>Description</td>
+     <td>Default</td>
     </tr>
     <tr>
-      <td><em>Collapasble</em></td>
-      <td>Optional.
+      <td>Collapasble</td>
+      <td>
         <ul>
-          <li>True=Can be collapsed or expanded (Default)</li>
-          <li>False=Not collapsable</li><li>true=Can be collapsed or expanded (Default)</li>
+          <li>True=Can be collapsed or expanded.</li>
+          <li>False=Not collapsable.</li>
         </ul>
       </td>
+      <td>True</td>
     </tr>
     <tr>
       <td><em>Collapsed</em></td>
-      <td>Optional.<br>
+      <td>
       Collapsable must be set to true, otherwise this paramter is ignored.
         <ul>
-          <li>True=Initially collapsed</li>
-          <li>False=Initially expanded (default)</li>
+          <li>True=Initially collapsed.</li>
+          <li>False=Initially expanded.</li>
         </ul>
       </td>
+      <td>False</td>
     </tr>
     <tr>
-      <td><em>openfirst</em></td>
-      <td>Optional.<br>
+      <td>openfirst</td>
+      <td>
       Determins if the first accordian group is initially expanded or not
         <ul>
-          <li>True=Initially collapsed</li>
-          <li>False=Initially expanded (default)</li>
+          <li>True=Initially collapsed.</li>
+          <li>False=Initially expanded.</li>
         </ul>
       </td>
+      <td>False</td>
     </tr>
     <tr>
       <td>title</td>
       <td>The title that will be displayed if collapsable</td>
+      <td>View Frequently Asked Questions</td>
     </tr>
     <tr>
       <td>activetab</td>
-      <td>Optional.  Expecting a number from 1-4 indicating the museum.
+      <td>Expecting a number from 1-4 indicating the museum.
         <ul>
-          <li>1=Ann Arbor Hands On (Default)</li>
+          <li>1=Ann Arbor Hands On</li>
           <li>2=Leslie Science</li>
           <li>3=Yankee Air Museum</li>
           <li>4=Challenger Learning center</li>
-        </ul></td>
+        </ul>
+      </td>
+      <td>1</td>
     </tr>
     <tr>
       <td>Single</td>
-      <td>Optional.
+      <td>
         <ul>
           <li>True=Show only the active museum tab.</li>
-          <li>False=All museums (Default)</li>
+          <li>False=All museums.</li>
         </ul>
       </td>
+      <td>False</td>
     </tr>
     <tr>
       <td><em>OpenFirst</em></td>
-      <td>Optional.
+      <td>
         <ul>
           <li>True=Automatically open the first faq question for the selected museum.</li>
-          <li>False=All faq questions closed on initial open. (Default)</li>
+          <li>False=All faq questions closed on initial open.</li>
         </ul>
       </td>
+      <td>False</td>
     </tr>
   </tbody>
 </table>

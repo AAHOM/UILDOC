@@ -2,7 +2,7 @@
 layout: default
 title: Team Members <span class="new">(Updated)</span>
 parent: Components
-nav_order: 4
+nav_order: 7
 ---
 
 ### Team Members Custom Display

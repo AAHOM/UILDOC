@@ -46,6 +46,8 @@ Home page flip boxes for Visit, Learn and Support.
 
 **Attributes:**
 
+All attributes are optional, the defaults are defined.
+
 <table class="ws-table-all notranslate">
   <tbody>
     <tr class="tableTop">
@@ -54,8 +56,7 @@ Home page flip boxes for Visit, Learn and Support.
     </tr>
     <tr>
       <td>FindCats</td>
-      <td>Optional.
-        This is a comma delimeted list of categories.  The blog entry must
+      <td>This is a comma delimeted list of categories.  The blog entry must
         have one or more of these categories in order to be includede.   If this attreibute
         is not defined, then all blog entries from the defined blog will be included.
       </td>

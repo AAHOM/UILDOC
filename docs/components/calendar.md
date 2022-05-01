@@ -7,7 +7,7 @@ nav_order: 2
 
 ### Calendar of Events
 
-The calendar custom function grabs data from the reference-data blog "Calendars"
+The calendar custom function grabs data from the *reference-data* blog "*Calendars*"
 
 **Used On Pages**
 
@@ -47,6 +47,8 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
 
 **Attributes:**
 
+All attributes are optional, the defaults are defined.
+
 <table class="ws-table-all notranslate">
   <tbody>
     <tr class="tableTop">
@@ -56,7 +58,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
     </tr>
     <tr>
       <td>ActiveTab</td>
-      <td>Optional.
+      <td>
         <ul>
           <li>0=All museums (Default)</li>
           <li>1=Ann Arbor Hands On</li>
@@ -74,7 +76,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
     </tr>
     <tr>
       <td><em>openfirst</em></td>
-      <td>Optional.<br>
+      <td>
       Determins if the first accordian group is initially expanded or not
         <ul>
           <li>True=Initially collapsed</li>
@@ -85,7 +87,7 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
     </tr>
     <tr>
       <td>Collapasble</td>
-      <td>Optional.
+      <td>
         <ul>
           <li>True=Can be collapsed or expanded (Default)</li>
           <li>False=Not collapsable</li>
@@ -94,8 +96,8 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
       <td>True</td>
     </tr>
     <tr>
-      <td><em>Collapsed</em></td>
-      <td>Optional.<br>
+      <td>Collapsed</td>
+      <td>
       Collapsable must be set to true, otherwise this paramter is ignored.
         <ul>
           <li>True=Initially collapsed</li>
@@ -136,12 +138,12 @@ The calendar custom function grabs data from the reference-data blog "Calendars"
     </tr>
     <tr>
       <td>showDate</td>
-      <td>Google calendar parameter to show date.  default = true</td>
+      <td>Google calendar parameter to show date.</td>
       <td>True</td>
     </tr>
     <tr>
       <td>showTz</td>
-      <td>Google calendar parameter to show time zone.  default = true</td>
+      <td>Google calendar parameter to show time zone.</td>
       <td>True</td>
     </tr>
     <tr>
@@ -234,7 +236,6 @@ You can dynamically override *ActiveTab* by adding a parameter to the linking ur
 ```
 ?tab=n  (where n is a number from 0-4, see ActiveTab below)
 ```
-
 
 **Return Value:**
 
