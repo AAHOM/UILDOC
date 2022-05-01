@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Team Members <span class="new">(Updated)</span>
+title: Team Members <span class="new">(05/01/22)</span>
 parent: Components
 nav_order: 7
 ---
@@ -34,36 +34,36 @@ Attribute defaults specific to the ***team-members*** collection are:
   <tbody>
     <tr class="tableTop">
      <td style="width:120px">Attribute</td>
-     <td style="width:120px">Default</td>
      <td>Description</td>
+     <td>Default</td>
     </tr>
     <tr>
       <td>filter</td>
-      <td>false</td>
       <td>Defines if filtering checkboxes (or radio buttons) are to be displayed.  Valid values are "true" or "false".  </td>
+      <td>false</td>
     </tr>
     <tr>
       <td>groups</td>
-      <td>''</td>
       <td>Overrides the default groups used for filtering.  This is a comma delimeted
       list of group names found in the categories spreadsheet.</td>
+      <td>''</td>
     </tr>
     <tr>
       <td>showcats</td>
-      <td>false</td>
       <td>Defines if categories are shown for each blog entry. Valid values
       are "true" or "false".</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>showcount</td>
-      <td>false</td>
       <td>Defines if a count of filtered and total number of blog items is shown. Valid values are "true" or "false"</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>findcats</td>
-      <td>''</td>
       <td>Defines a comma delimted list of categories which will be included
       in the blog entries.</td>
+      <td>''</td>
     </tr>
   </tbody>
 </table>

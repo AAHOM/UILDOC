@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Donor Wall <span class="new">(4/21/22)</span>
+title: Donor Wall <span class="new">(05/01/22)</span>
 parent: Components
 nav_order: 2
 ---
@@ -55,25 +55,28 @@ All attributes are optional, the defaults are defined.
     <tr class="tableTop">
      <td style="width:120px">Attribute</td>
      <td>Description</td>
+     <td>Default</td>
     </tr>
     <tr>
       <td><em>Collapasble</em></td>
       <td>
         <ul>
-          <li>True=Can be collapsed or expanded (Default)</li>
-          <li>False=Not collapsable</li><li>true=Can be collapsed or expanded (Default)</li>
+          <li>True=Can be collapsed or expanded</li>
+          <li>False=Not collapsable</li>
         </ul>
       </td>
+      <td>True</td>
     </tr>
     <tr>
-      <td><em>Collapsed</em></td>
+      <td>Collapsed</td>
       <td>
       Collapsable must be set to true, otherwise this paramter is ignored.
         <ul>
           <li>True=Initially collapsed</li>
-          <li>False=Initially expanded (default)</li>
+          <li>False=Initially expanded</li>
         </ul>
       </td>
+      <td>False</td>
     </tr>
     <tr>
       <td><em>openfirst</em></td>
@@ -81,19 +84,22 @@ All attributes are optional, the defaults are defined.
       Determins if the first accordian group is initially expanded or not
         <ul>
           <li>True=Initially collapsed</li>
-          <li>False=Initially expanded (default)</li>
+          <li>False=Initially expanded</li>
         </ul>
       </td>
+      <td>False</td>
     </tr>
     <tr>
       <td>title</td>
       <td>The title that will be displayed if collapsable</td>
+      <td>title</td>
     </tr>
     <tr>
       <td>breakpoints</td>
       <td>This is an array of integer values which
       defines the breakpoints and minimum value
-    to qualify.  Default is breakpoints: [
+    to qualify.</td>
+    <td>breakpoints: [
     1,1000,5000, 10000, 25000, 50000, 100000, 250000, 500000, 1000000].</td>
     </tr>
   </tbody>
