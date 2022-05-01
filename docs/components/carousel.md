@@ -1,73 +1,26 @@
 ---
 layout: default
-title: Carousel  <span class="new">(Updated)</span>
+title: Carousel  <span class="new">(05/01/22)</span>
 parent: Components
-nav_order: 7
+nav_order: 5
 ---
 
 ### Carousel
 
-The ***createCarousel*** requires that at least one summary carousel is defined in the same SquareSpace page section.   
+The carousel custom function grabs data from the a blog or events collection and displays
+the entries in a horizontal carousel.
 
-***Cook book to create a carousel summary block***
-- Edit the page
-- Click the "+" sign where you want the carousel to appear
-- Select **Summary Block**
-- Under ***content*** 
-	- select the appropriate blog to display
-	- Primary Metadata: None
-	- Secondary Metadata: None
-	- Filter Items: If needed
-- Under ***Design*** 
-	- Select Carousel
-	- Number of items: 30 (max)
-	- Items per Row: 3 
-	- Aspect Ratio: 3:2 Standard
-	- Text: L (Left align)
-	- Header Text: Featured (or whatever you want)
-	- Title: On
-	- Featured Image: On
-	- Excerpt: On
-	- Read More Link: On
-	- Set Read More Link Text: Read More
-	- Metadata Position: Below Content
-	- Size and Spacing: Column Width=280px, gutter width=60px, Use Columns Number=Off
-- Under ***Lazy Settings***
-	- Ignore for now, leave off
-- Under ***Additional***
-	- Ignore for now, leave off
+**Used On Pages**
 
-Once the carousel summary block has been defined, insert a code block to 
-transform the carousel to a Slick plugin carousel.  
+*Home*
 
-***Cook book to add Slick Carousel***
-- Edit the page
-- Click a "+" sign just above the carousel summary block, in the same section 
-- Select "Code"
-- Paste the following code block
-- Adust parameters as needed
+**Usage**
 
-**Code block for slick carousel**
-```
-<script>
-$(document).ready(function(){
-    createCarousel ('#announcementCarousel');    
-});
-</script>
-<div id="announcementCarousel"></div>
-``` 
-
-**Overrides:**
-
-None
-
-**Usage:**
-
-*createCarousel(SelectorID, ContainerNumber)*
+*collectionControl(Selector, Collection Slug, Display Type, Attributes)*
 
 **Parameters:**
 
-<table class="ws-table-all notranslate"> 
+<table class="ws-table-all notranslate">
   <tbody>
     <tr class="tableTop">
      <td style="width:120px">Parameter</td>
@@ -75,15 +28,104 @@ None
     </tr>
     <tr>
       <td><em>Selector</em></td>
-      <td>Required.<br>jQuery selector identification where the resulting html code will be generated.</td>
+      <td>Required.<br>jQuery selector identification where the resulting html code will be generated.  Note that the selector must be unique on the page.</td>
     </tr>
     <tr>
-      <td><em>ContainerNumber</em></td>
-      <td>Optional, zero or greater number.  Needed if more than one carousel exists in the same page section.  Zero (default) referes to the first carousel in the section, and so on.
-      </td>
+      <td><em>Collection Slug</em></td>
+      <td>This is the slug key for a defined collection blog or event.</td>
+    </tr>
+    <tr>
+      <td><em>Display Type</em></td>
+      <td>Required.<br>Identifies the display type requested.  For carousels must be "carousel".  These are case sensitive parameters. </td>
+    </tr>
+    <tr>
+      <td><em>Attributes</em></td>
+      <td>Optional.<br>Identifies parameters to override default values.  The parameters are passed in a object array of key/value pairs.  Each display type has different default values as described below. </td>
     </tr>
   </tbody>
 </table>
+
+**Attributes:**
+
+<table class="ws-table-all notranslate">
+  <tbody>
+    <tr class="tableTop">
+     <td style="width:120px">Attribute</td>
+     <td>Description</td>
+     <td>Default</td>
+    </tr>
+    <tr>
+      <td>Groups</td>
+      <td>Optional. This parameter only has meaning if the filter parameter is
+      	true.  It is a comma delimited string value of filter group names
+     </td>
+     <td>Null</td>
+    </tr>
+    <tr>
+      <td>FindCats</td>
+      <td>Optional.  A comma delimted string value of defined
+      categories to include.  If not defined then this is ignored.</td>
+      <td>Null</td>
+    </tr>
+    <tr>
+      <td>Filter</td>
+      <td>Optional.  Set to true if filtering is to be enabled.</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>ShowCats</td>
+      <td>Optional. Set to true if category names are to be
+      	displayed along with the blog entry.</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>Dots</td>
+      <td>Optional.  Display series of dots under the carousel to show
+      	the current slide and positon.
+      </td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>ShowCount</td>
+      <td>Display a count of blog entrieds in the carousel.</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>ShowSlides</td>
+      <td>Number of slides to show in the carousel</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+**Example code block for control**
+
+This example displays the *announcements* blog collection as a carousel.  The
+carousel will be displayed as two items.
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#announce',
+    'announcements',
+    'carousel',
+    {groups: "",
+     findcats: "",
+     filter: false,
+     showcats: false,
+     dots: false,
+     showslides: 2
+    }
+   );
+})
+</script>
+<div id="announce"></div>
+```
+
+**Reference Data**
+
+*blog: announcements*
 
 **Return Value:**
 
