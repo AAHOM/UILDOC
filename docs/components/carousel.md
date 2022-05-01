@@ -13,6 +13,7 @@ the entries in a horizontal carousel.
 **Used On Pages**
 
 *Home*
+*Visit -> Ann Arbor Hands-On Museum*
 
 **Usage**
 
