@@ -60,7 +60,7 @@ All attributes are optional, the defaults are defined.
     </tr>
     <tr>
       <td>collections</td>
-      <td><strong>Required</strong> This parameter is a javascript array of the collections to be included in the validation.
+      <td><strong>Required.</strong> This parameter is a javascript array of the collections to be included in the validation.
      </td>
      <td>Null</td>
     </tr>
@@ -78,7 +78,7 @@ array of collections slug names.
 <script>
 $(document).ready(function() {
   collectionControl(
-    "#learnMenu",
+    "#validateCategories",
     "",
     "validate",
     {collections: [
@@ -99,7 +99,7 @@ $(document).ready(function() {
   );
 })
 </script>
-<div id="learnMenu"></div>
+<div id="validateCategories"></div>
 ```
 
 **Reference Data**
