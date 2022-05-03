@@ -69,7 +69,9 @@ All attributes are optional, the defaults are defined.
 
 **Example code block for control**
 
-This example displays invalid categories found in the blog entries for all of the listed collections.  **NOTE** because the list of collections spans multiple lines, it must be enclosed in back tick's (\`) and each collection slug name separated by commas.
+This example displays invalid categories found in the blog entries for all of the listed collections.
+
+**NOTE: because the list of collections spans multiple lines**, it must be enclosed in back tick's (\`) and each collection slug name separated by commas.
 
 ```
 <script>
