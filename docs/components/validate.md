@@ -60,7 +60,7 @@ All attributes are optional, the defaults are defined.
     </tr>
     <tr>
       <td>collections</td>
-      <td>This parameter is a string list, comma separated, of the collections to be included in the validation.  Because this list spans multiple lines it must be enclosed in back tick's (`).
+      <td>*Required* This parameter is a javascript array of the collections to be included in the validation.
      </td>
      <td>Null</td>
     </tr>
@@ -71,27 +71,30 @@ All attributes are optional, the defaults are defined.
 
 This example displays invalid categories found in the blog entries for all of the listed collections.
 
-**NOTE: because the list of collections spans multiple lines**, it must be enclosed in back tick's (\`) and each collection slug name separated by commas.
+**NOTE:**, The list of collections must be a valid javascript
+array of collections slug names.
 
 ```
 <script>
 $(document).ready(function() {
   collectionControl(
-    '#learnMenu',
-    '',
-    'validate',
-    {collections: `announcements,
-      distance-learning-1,
-      outreach-1,
-      field-trip-options,
-      site-features,
-      public-education,
-      promotions,
-      jobs-list,
-      team-members,
-      flex-boxes,
-      giving-opportunities,
-      reference-data`
+    "#learnMenu",
+    "",
+    "validate",
+    {collections: [
+        "announcements",
+        "distance-learning-1",
+        "outreach-1",
+        "field-trip-options",
+        "site-features",
+        "public-education",
+        "promotions",
+        "jobs-list",
+        "team-members",
+        "flex-boxes",
+        "giving-opportunities",
+        "reference-data"
+        ]
     }
   );
 })
