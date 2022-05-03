@@ -104,7 +104,7 @@ $(document).ready(function() {
 
 **Reference Data**
 
-*reference-data blog categories*
+*reference-data blog: categories*
 
 **Return Value:**
 
