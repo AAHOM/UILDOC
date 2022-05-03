@@ -60,7 +60,7 @@ All attributes are optional, the defaults are defined.
     </tr>
     <tr>
       <td>collections</td>
-      <td>*Required* This parameter is a javascript array of the collections to be included in the validation.
+      <td>**Required** This parameter is a javascript array of the collections to be included in the validation.
      </td>
      <td>Null</td>
     </tr>
