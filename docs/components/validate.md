@@ -13,7 +13,6 @@ that do not have a match in the official list of categories.
 
 **Used On Pages**
 
-*Home*
 *About Us -> Invalid Categories*
 
 **Usage**
