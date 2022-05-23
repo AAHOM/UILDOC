@@ -63,6 +63,13 @@ All attributes are optional, the defaults are defined.
       </td>
       <td>Null</td>
     </tr>
+    <tr>
+      <td>flipSpeed</td>
+      <td>Defines the speed, in seconds, that the flip boxes will flip when user hovers
+        over them. Expecting a floating point number with following optional "s".
+      </td>
+      <td>0.8s</td>
+    </tr>
   </tbody>
 </table>
 
@@ -75,7 +82,8 @@ $(document).ready(function() {
     '#flexBoxes',
     'flex-boxes',
     'flexboxes',
-     {findcats: "Home"}
+     {findcats: "Home",
+      flipSpeed: "2s"}
   );
 })
 </script>
