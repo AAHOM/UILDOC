@@ -4,6 +4,11 @@ title: Carousel  <span class="new">(05/01/22)</span>
 parent: Components
 nav_order: 2
 ---
+<style>
+  img {
+    border:  1px solid black;
+  }
+</style>
 
 ## Carousel
 
