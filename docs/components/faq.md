@@ -2,7 +2,7 @@
 layout: default
 title: Faqs <span class="new">(05/01/22)</span>
 parent: Components
-nav_order: 3
+nav_order: 30
 ---
 
 ### Frequently Asked Questions
