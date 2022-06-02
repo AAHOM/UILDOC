@@ -13,11 +13,17 @@ img {
 
 # Pick-a-Tool
 
-This is a quick review of the tools available in the UIL Toolbox.   
+This is a quick review of the tools available in the UIL Toolbox.   These tools generally present data from **SquareSpace Collections**.   Collections are files of either Blogs or Events.
 
 ## Carousel
 
+The Carousel is an infinint loop of entries in a collection with previous and next
+buttons on the left and right.  The number of items displayed can be defined as an
+attribute when calling the carousel function.  Filtering based on SquareSpace categories
+is also available via attributes. Learn More.
+
 ![Alt Carousel](../../assets/images/pickcarousel.jpg "Carousel")
+
 
 ## Filtered Grid
 
