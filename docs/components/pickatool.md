@@ -5,6 +5,12 @@ parent: Components
 nav_order: 1
 ---
 
+<style>
+img {
+	border:  1px solid black;
+}
+</style>
+
 # Pick-a-Tool
 
 This is a quick review of the tools available in the UIL Toolbox.   
