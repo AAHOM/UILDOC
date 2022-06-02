@@ -2,7 +2,7 @@
 layout: default
 title: Carousel  <span class="new">(05/01/22)</span>
 parent: Components
-nav_order: 5
+nav_order: 2
 ---
 
 ### Carousel

@@ -2,7 +2,7 @@
 layout: default
 title: Donor Wall <span class="new">(05/01/22)</span>
 parent: Components
-nav_order: 2
+nav_order: 28
 ---
 
 ### Donor Wall
