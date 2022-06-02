@@ -35,8 +35,16 @@ This is a quick review of the tools available in the UIL Toolbox.
 
 ## Locations
 
+![Alt Map and Directions](../../assets/images/pickdirections.jpg "Map and Directions")
+
 ## Calendars
+
+![Alt Calendars](../../assets/images/pickcalendars.jpg "Calendars")
 
 ## Donor Wall
 
+![Alt Donor Wall](../../assets/images/pickdonorwall.jpg "Donor Wall")
+
 ## Sub Menu
+
+![Alt Sub Menu](../../assets/images/picksubmenu.jpg "Sub Menu")
