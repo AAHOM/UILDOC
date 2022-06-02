@@ -19,8 +19,7 @@ This is a quick review of the tools available in the UIL Toolbox.   These tools 
 
 The Carousel is an infinint loop of entries in a collection with previous and next
 buttons on the left and right.  The number of items displayed can be defined as an
-attribute when calling the carousel function.  Filtering based on SquareSpace categories
-is also available via attributes. Learn More.
+attribute when calling the carousel function.  Filtering (to limit items) based on SquareSpace categories is also available via attributes. [Learn More](/components/carousel.html).
 
 ![Alt Carousel](../../assets/images/pickcarousel.jpg "Carousel")
 
