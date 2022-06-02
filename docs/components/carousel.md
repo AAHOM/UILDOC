@@ -5,10 +5,11 @@ parent: Components
 nav_order: 2
 ---
 
-### Carousel
+## Carousel
 
-The carousel custom function grabs data from the a blog or events collection and displays
-the entries in a horizontal carousel.
+The Carousel is an infinint loop of entries in a collection with previous and next
+buttons on the left and right.  The number of items displayed can be defined as an
+attribute when calling the carousel function.  Filtering (to limit items) based on SquareSpace categories is also available via attributes.
 
 **Used On Pages**
 
@@ -128,7 +129,7 @@ $(document).ready(function() {
 
 **Reference Data**
 
-*blog: announcements*
+None
 
 **Return Value:**
 
@@ -141,4 +142,4 @@ None
 
 **Example Screenshot**
 
-![Alt Slick Carousel](../../assets/images/slick_carousel.jpg "Slick Carousel")
+![Alt Carousel](../../assets/images/pickcarousel.jpg "Carousel")
