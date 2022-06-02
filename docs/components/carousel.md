@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Carousel  <span class="new">(05/01/22)</span>
+title: Carousel  <span class="new">(06/02/22)</span>
 parent: Components
 nav_order: 2
 ---
