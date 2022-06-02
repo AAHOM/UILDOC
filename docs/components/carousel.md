@@ -11,6 +11,23 @@ The Carousel is an infinint loop of entries in a collection with previous and ne
 buttons on the left and right.  The number of items displayed can be defined as an
 attribute when calling the carousel function.  Filtering (to limit items) based on SquareSpace categories is also available via attributes.
 
+### Quick try
+
+Paste the following into a SquareSpace code block to see how it works:
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#exampleDiv',
+    'announcements',
+    'carousel'
+   );
+})
+</script>
+<div id="exampleDiv"></div>
+```
+
 **Used On Pages**
 
 *Home*
