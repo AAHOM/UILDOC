@@ -14,7 +14,8 @@ nav_order: 3
 ## Grids
 
 This will display a SquareSpace collection (blog or events) as a grid with optional
-filtering based on defined groups (see reference-data).
+filtering based on defined groups (see reference-data).  Number of blog items
+displayed depends on page width.  If width > 1200px then display 5 across, width < 1200 display 4 across, width < 900 display 3 across, width < 600 (mobile) display 1.
 
 ### Quick try
 
@@ -117,9 +118,9 @@ All attributes are optional, the defaults are defined.
       <td>False</td>
     </tr>
     <tr>
-      <td>ShowSlides</td>
-      <td>Number of slides to show in the carousel</td>
-      <td>3</td>
+      <td>Featuredimage</td>
+      <td>Display the blog entry image, true or false</td>
+      <td>false</td>
     </tr>
   </tbody>
 </table>
