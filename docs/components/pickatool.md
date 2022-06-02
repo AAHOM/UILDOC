@@ -26,6 +26,9 @@ attribute when calling the carousel function.  Filtering (to limit items) based 
 
 ## Filtered Grid
 
+This will display a SquareSpace collection (blog or events) as a grid with optional
+filtering based on defined groups (see reference-data).  [Learn More about grids](../components/grids.html).
+
 ![Alt Filter Grid](../../assets/images/pickgrid.jpg "Filter Grid")
 
 ## Team Members
