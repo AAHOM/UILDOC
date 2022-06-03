@@ -6,7 +6,7 @@ has_children: true
 permalink: /docs/forms
 ---
 
-# Supporting Forms
+# Forms Home
 
 Supporting JotForms used for customer input.
 
