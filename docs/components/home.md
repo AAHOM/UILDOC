@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pick-a-Tool <span class="new">(06/02/22)</span>
+title: Home <span class="new">(06/02/22)</span>
 parent: Components 
 nav_order: 1
 ---
@@ -11,7 +11,7 @@ img {
 }
 </style>
 
-# Pick-a-Tool
+# Components Home
 
 This is a quick review of the tools available in the UIL Toolbox.   These tools generally present data from **SquareSpace Collections**.   Collections are files of either Blogs or Events.
 
