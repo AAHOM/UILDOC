@@ -2,7 +2,7 @@
 layout: default
 title: Control 
 parent: Components 
-nav_order: 26
+nav_order: 62
 ---
 
 ### Control

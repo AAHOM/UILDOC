@@ -2,7 +2,7 @@
 layout: default
 title: Icon Bar <span class="new">(Updated)</span>
 parent: Components
-nav_order: 15
+nav_order: 55
 ---
 
 ### Icon Bar

@@ -2,7 +2,7 @@
 layout: default
 title: Address Info Box <span class="new">(Updated)</span>
 parent: Components
-nav_order: 10
+nav_order: 52
 ---
 
 ### Address Info Box

@@ -2,7 +2,7 @@
 layout: default
 title: Validate  <span class="new">(05/03/22)</span>
 parent: Components
-nav_order: 5
+nav_order: 50
 ---
 
 ### Validate

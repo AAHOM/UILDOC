@@ -2,7 +2,7 @@
 layout: default
 title: Gallery Slideshow
 parent: Components
-nav_order: 25
+nav_order: 61
 ---
 
 ### Gallery Slideshow

@@ -2,7 +2,7 @@
 layout: default
 title: Lazy Summary
 parent: Components
-nav_order: 17
+nav_order: 57
 ---
 
 ### Lazy Summary

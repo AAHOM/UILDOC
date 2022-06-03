@@ -2,7 +2,7 @@
 layout: default
 title: Map Locations <span class="new">(Updated)</span>
 parent: Components
-nav_order: 8
+nav_order: 51
 ---
 
 ### Map Locations
