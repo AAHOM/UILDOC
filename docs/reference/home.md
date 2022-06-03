@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home <span class="new">(06/02/22)</span>
-parent: reference
+parent: Reference
 nav_order: 1
 ---
 
