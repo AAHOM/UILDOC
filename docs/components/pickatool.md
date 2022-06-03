@@ -31,6 +31,13 @@ filtering based on defined groups (see reference-data).  [Learn More about grids
 
 ![Alt Filter Grid](../../assets/images/pickgrid.jpg "Filter Grid")
 
+## Icon Bar
+
+Icon Bars appear either attached to the top header image and/or the bottom footer on
+all pages.  The icons displayed are saved in /reference-data/iconbar.  [Learn More about Icon Bars](../components/iconbar_new.html).
+
+![Alt Filter Grid](../../assets/images/pickiconbar.jpg "Filter Grid")
+
 ## Team Members
 
 ![Alt People Team](../../assets/images/pickteam.jpg "People Team")
