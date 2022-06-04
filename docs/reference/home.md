@@ -17,3 +17,12 @@ Icon Bars appear either attached to the top header image and/or the bottom foote
 all pages.  The icons displayed are saved in /reference-data/iconbar.  [Learn More about Icon Bar](../reference/reficonbar.html).
 
 ![Alt Editing IconBar](../../assets/images/referenceiconbar.jpg "Editing IconBar"){: .theImage}
+
+## Categories
+
+The category list is a list of standard categories and associated groupings.  This list is
+used primarily for grid filtering.  The categories are saved in /reference-data/categories as
+a code block in CSV format. [Learn More about the Category List](../reference/refcategory.html).
+
+![Alt Categories](../../assets/images/referencecategories.jpg "Categories"){: .theImage}
+
