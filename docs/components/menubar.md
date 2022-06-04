@@ -67,4 +67,4 @@ None
 
 **Menu Bar Screenshot**
 
-![Alt Menu Bar](../../assets/images/menubar.jpg "Menu Bar")
+![Alt Menu Bar](../../assets/images/menubar.jpg "Menu Bar"){: .theImage}

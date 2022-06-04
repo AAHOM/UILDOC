@@ -5,12 +5,6 @@ parent: Components
 nav_order: 4
 ---
 
-<style>
-  img {
-    border:  1px solid black;
-  }
-</style>
-
 ## Icon Bars
 
 Icon Bars appear either attached to the top header image and/or the bottom footer on
@@ -71,4 +65,4 @@ None
 
 **Example Screenshot**
 
-![Alt Icon Barl](../../assets/images/pickiconbar.jpg "Icon Bar")
+![Alt Icon Barl](../../assets/images/pickiconbar.jpg "Icon Bar"){: .theImage}

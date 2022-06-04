@@ -243,8 +243,8 @@ None
 
 **Calendar desktop view**
 
-![Alt Calendar Desktop](../../assets/images/calendar.jpg "Calendar Desktop")
+![Alt Calendar Desktop](../../assets/images/calendar.jpg "Calendar Desktop"){: .theImage}
 
 **Calendar mobile view**
 
-![Alt Calendar Mobile](../../assets/images/calendar_mobile.jpg "Calendar Mobile")
+![Alt Calendar Mobile](../../assets/images/calendar_mobile.jpg "Calendar Mobile"){: .theImage}

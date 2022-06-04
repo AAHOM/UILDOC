@@ -5,12 +5,6 @@ parent: Components
 nav_order: 3
 ---
 
-<style>
-  img {
-    border:  1px solid black;
-  }
-</style>
-
 ## Grids
 
 This will display a SquareSpace collection (blog or events) as a grid with optional
@@ -165,4 +159,4 @@ None
 
 **Example Screenshot**
 
-![Alt Carousel](../../assets/images/pickgrid.jpg "Carousel")
+![Alt Carousel](../../assets/images/pickgrid.jpg "Carousel"){: .theImage}

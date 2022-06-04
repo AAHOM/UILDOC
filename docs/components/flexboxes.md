@@ -97,4 +97,4 @@ $(document).ready(function() {
 
 **Example Screenshot**
 
-![Alt Home Page Flip Boxes](../../assets/images/flip_boxes.jpg "Home Page Flip Boxes")
+![Alt Home Page Flip Boxes](../../assets/images/flip_boxes.jpg "Home Page Flip Boxes"){: .theImage}

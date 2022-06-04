@@ -157,4 +157,4 @@ None
 
 **Example Screenshot**
 
-![Alt Address Info Box](../../assets/images/address_info_box.jpg "Address Info Box")
+![Alt Address Info Box](../../assets/images/address_info_box.jpg "Address Info Box"){: .theImage}

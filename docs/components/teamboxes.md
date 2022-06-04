@@ -5,12 +5,6 @@ parent: Components
 nav_order: 5
 ---
 
-<style>
-img {
-  border:  1px solid black;
-}
-</style>
-
 ### Team Members Custom Display
 
 A list of team members found in the SquareSpace blog "Team Members" can be displayed via the custom function ***collectionControl*** by embedding a code block on a page as follows:
@@ -135,12 +129,12 @@ summary block defined as follows:
 
 **Example Screenshot**
 
-![Alt Team Members](../../assets/images/team_members.jpg "Team Members")
+![Alt Team Members](../../assets/images/team_members.jpg "Team Members"){: .theImage}
 
 **Team member detail**
 
-![Alt Team Member Detail](../../assets/images/team_member_detail.jpg "Team Member Detail")
+![Alt Team Member Detail](../../assets/images/team_member_detail.jpg "Team Member Detail"){: .theImage}
 
 **Team Backup Summary Block**
 
-![Alt Team Backup Summary](../../assets/images/teambackupblock.jpg "Team Backup Summary")
+![Alt Team Backup Summary](../../assets/images/teambackupblock.jpg "Team Backup Summary"){: .theImage}

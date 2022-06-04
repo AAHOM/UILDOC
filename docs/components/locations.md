@@ -190,4 +190,4 @@ None
 
 **Example Screenshot**
 
-![Alt Map Directions](../../assets/images/locations.jpg "Map Directions")
+![Alt Map Directions](../../assets/images/locations.jpg "Map Directions"){: .theImage}

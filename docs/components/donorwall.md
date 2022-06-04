@@ -175,4 +175,4 @@ footnote section.
 
 **Example Screenshot**
 
-![Alt Donor Wall](../../assets/images/oursupporters.jpg "Donor Wall")
+![Alt Donor Wall](../../assets/images/oursupporters.jpg "Donor Wall"){: .theImage}

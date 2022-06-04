@@ -4,11 +4,6 @@ title: Carousel  <span class="new">(06/02/22)</span>
 parent: Components
 nav_order: 2
 ---
-<style>
-  img {
-    border:  1px solid black;
-  }
-</style>
 
 ## Carousel
 
@@ -164,4 +159,4 @@ None
 
 **Example Screenshot**
 
-![Alt Carousel](../../assets/images/pickcarousel.jpg "Carousel")
+![Alt Carousel](../../assets/images/pickcarousel.jpg "Carousel"){: .theImage}

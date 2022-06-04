@@ -189,4 +189,4 @@ You can dynamically override *ActiveTab* by adding a parameter to the linking ur
 
 **Example Screenshot**
 
-![Alt Frequently Asked Questions](../../assets/images/faqs.jpg "Frequently Asked Questions")
+![Alt Frequently Asked Questions](../../assets/images/faqs.jpg "Frequently Asked Questions"){: .theImage}
