@@ -5,6 +5,12 @@ parent: Components
 nav_order: 5
 ---
 
+<style>
+img {
+  border:  1px solid black;
+}
+</style>
+
 ### Team Members Custom Display
 
 A list of team members found in the SquareSpace blog "Team Members" can be displayed via the custom function ***collectionControl*** by embedding a code block on a page as follows:
@@ -100,7 +106,6 @@ summary block defined as follows:
     - Gutter Width = 60px
     - Use Column numbers.. = Off
 - Save changes
-
 
 
 **Example Screenshot**
