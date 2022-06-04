@@ -14,13 +14,6 @@ blog items are within a blog identifed as "Reference Data".  However there are e
 ## Icon Bar
 
 Icon Bars appear either attached to the top header image and/or the bottom footer on
-all pages.  The icons displayed are saved in /reference-data/iconbar
-
-The icon images are saved in a page gallery.  Add links to the "Clickthrough URL" by hovering over the icon (in edit mode) and clicking the wheel.
-
-The order that icons are displayed is the order that they appear in the gallery.  There is
-no way to hide an icon other than delete it from the gallery.
+all pages.  The icons displayed are saved in /reference-data/iconbar.  [Learn More about Icon Bar](../reference/reficonbar.html).
 
 ![Alt Editing IconBar](../../assets/images/referenceiconbar.jpg "Editing IconBar"){: .theImage}
-
-![Alt Adding Link](../../assets/images/referenceiconbar2.jpg "Adding Link"){: .theImage}
