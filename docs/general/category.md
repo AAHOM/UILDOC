@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Categories
-parent: Reference
+parent: General
 nav_order: 3
 description: "Category assignments"
 ---
