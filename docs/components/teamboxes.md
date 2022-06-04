@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Team Members <span class="new">(05/01/22)</span>
+title: Team Members <span class="new">(06/04/22)</span>
 parent: Components
 nav_order: 5
 ---
