@@ -40,6 +40,8 @@ all pages.  The icons displayed are saved in /reference-data/iconbar.  [Learn Mo
 
 ## Team Members
 
+A list of team members found in the SquareSpace blog “Team Members” can be displayed via the custom function collectionControl by embedding a code block on a page. [Learn More about Icon Bars](../components/teamboxes.html).
+
 ![Alt People Team](../../assets/images/pickteam.jpg "People Team")
 
 ## Flip Boxes
