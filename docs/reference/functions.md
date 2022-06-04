@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Functions
+title: Reference
 nav_order: 5
 has_children: true
-permalink: /docs/functions
+permalink: /docs/reference
 ---
 
 # Supporting Functions
