@@ -21,7 +21,7 @@ The Carousel is an infinint loop of entries in a collection with previous and ne
 buttons on the left and right.  The number of items displayed can be defined as an
 attribute when calling the carousel function.  Filtering (to limit items) based on SquareSpace categories is also available via attributes. [Learn More about carousels](../components/carousel.html).
 
-![Alt Carousel](../../assets/images/pickcarousel.jpg "Carousel")
+![Alt Carousel](../../assets/images/pickcarousel.jpg "Carousel"){: .theImge}
 
 
 ## Filtered Grid
