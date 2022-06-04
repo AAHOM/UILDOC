@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Faqs <span class="new">(05/01/22)</span>
+title: Faqs <span class="new">(06/04/22)</span>
 parent: Components
-nav_order: 30
+nav_order: 7
 ---
 
 ### Frequently Asked Questions
 
-The Frequently Asked Questions custom function grabs data from "reference-data" blog entry title "FAQS" and displays the questions/answers in an accordian style list.  Each museum will have a separate tab, and separate questions based on data from the spreadsheet.
+The Frequently Asked Questions custom function grabs data from "reference-data/FAQS" blog entry and displays the questions/answers in an accordian style list.  Each museum will have a separate tab, and separate questions based on CSV format data.
 
 The frequently asked questions block is emplimented by adding a code block to the page with the following:
 

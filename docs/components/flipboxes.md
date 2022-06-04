@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Flip Boxes <span class="new">(05/23/22)</span>
+title: Flip Boxes <span class="new">(06/04/22)</span>
 parent: Components
-nav_order: 4
+nav_order: 6
 ---
 
 ### Flip Boxes

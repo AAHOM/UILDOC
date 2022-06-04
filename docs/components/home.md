@@ -50,6 +50,8 @@ A list of team members found in the SquareSpace blog “Team Members” can be d
 
 ## Frequently Asked Questions
 
+The Frequently Asked Questions custom function grabs data from "reference-data/FAQS" blog entry and displays the questions/answers in an accordian style list.  Each museum will have a separate tab, and separate questions based on CSV format data. [Learn More about FAQS](../components/faq.html).
+
 ![Alt Frequently Asked Questions](../../assets/images/pickfaqs.jpg "Frequently Asked Questions")
 
 ## Address/Hours/Admission
