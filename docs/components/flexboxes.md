@@ -7,7 +7,7 @@ nav_order: 6
 
 ### Flex Boxes
 
-Flip Boxes are individual slide shows that flip to the back side when hovered (or clicked on mobile devices).  The backside displays a short excerpt along with a link to the appropriate content.  This is desiged to work best with 3 flip boxes, but any number can be defined by overriding the default in attributes (see below).  Flipbox images and data is stored in a separate blog called "Flex Boxes" ("/flex-boxes").  Combinations of selections can be selected by defining categorires.
+Flip Boxes are individual slide shows that flip to the back side when hovered (or clicked on mobile devices).  The backside displays a short excerpt along with a link to the appropriate content.  This is desiged to work best with 3 flip boxes, but any number can be defined by overriding the default in attributes (see below).  Flex box images and data are stored in a separate blog called "Flex Boxes" ("/flex-boxes").  Combinations of selections can be selected by defining categorires.
 
 **Used On Pages**
 
