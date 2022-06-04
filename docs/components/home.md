@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home <span class="new">(06/02/22)</span>
+title: Home <span class="new">(06/04/22)</span>
 parent: Components 
 nav_order: 1
 ---

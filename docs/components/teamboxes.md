@@ -15,6 +15,33 @@ img {
 
 A list of team members found in the SquareSpace blog "Team Members" can be displayed via the custom function ***collectionControl*** by embedding a code block on a page as follows:
 
+### Quick try
+
+Paste the following into a SquareSpace code block to see how it works:
+
+```
+<script>
+$(document).ready(function() {
+  collectionControl(
+    '#teamContainer',
+    'team-members',
+    'team'
+  );
+})
+</script>
+<div id="teamContainer"></div>
+```
+
+**Used On Pages**
+
+*About Us -> People*
+
+**Usage**
+
+*collectionControl(Selector, Collection Slug, Display Type, Attributes)*
+
+**Parameters:**
+
 ```
 <script>
 $(document).ready(function() {
@@ -75,8 +102,6 @@ Attribute defaults specific to the ***team-members*** collection are:
 </table>
 
 To make changes, edit the individual team members blog entry.  The order displayed is based on the default order within the blog, which is driven by the publication date. The team member postion is defined as a "Tag" entry in the blog entry settings. 
-
-See **Control** for more information, calling syntax, parameters and attributes) on this function. 
 
 ### Team Members Backup Plan
 
