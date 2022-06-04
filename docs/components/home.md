@@ -44,7 +44,9 @@ A list of team members found in the SquareSpace blog “Team Members” can be d
 
 ![Alt People Team](../../assets/images/pickteam.jpg "People Team")
 
-## Flip Boxes
+## Flex Boxes
+
+Flip Boxes are individual slide shows that flip to the back side when hovered (or clicked on mobile devices).  The backside displays a short excerpt along with a link to the appropriate content.  This is desiged to work best with 3 flip boxes, but any number can be defined by overriding the default in attributes (see below).  FFlex bbox images and data are stored in a separate blog called "Flex Boxes" ("/flex-boxes").  Combinations of selections can be selected by defining categorires.   [Learn More about Flex Boxes](../components/flipboxes.html).
 
 ![Alt Flex Boxes](../../assets/images/pickflexboxes.jpg "Flex Boxes")
 
