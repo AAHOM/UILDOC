@@ -5,12 +5,6 @@ parent: Components
 nav_order: 1
 ---
 
-<style>
-div#main-content img {
-	border:  1px solid black;
-}
-</style>
-
 # Components Home
 
 This is a quick review of the tools available in the UIL Toolbox.   These tools generally present data from **SquareSpace Collections**.   Collections are files of either Blogs or Events.
@@ -36,42 +30,42 @@ filtering based on defined groups (see reference-data).  [Learn More about grids
 Icon Bars appear either attached to the top header image and/or the bottom footer on
 all pages.  The icons displayed are saved in /reference-data/iconbar.  [Learn More about Icon Bars](../components/iconbar_new.html).
 
-![Alt Filter Grid](../../assets/images/pickiconbar.jpg "Filter Grid")
+![Alt Filter Grid](../../assets/images/pickiconbar.jpg "Filter Grid"){: .theImage}
 
 ## Team Members
 
 A list of team members found in the SquareSpace blog “Team Members” can be displayed via the custom function collectionControl by embedding a code block on a page. [Learn More about Team Members](../components/teamboxes.html).
 
-![Alt People Team](../../assets/images/pickteam.jpg "People Team")
+![Alt People Team](../../assets/images/pickteam.jpg "People Team"){: .theImage}
 
 ## Flex Boxes
 
 Flip Boxes are individual slide shows that flip to the back side when hovered (or clicked on mobile devices).  The backside displays a short excerpt along with a link to the appropriate content.  This is desiged to work best with 3 flip boxes, but any number can be defined by overriding the default in attributes (see below).  FFlex bbox images and data are stored in a separate blog called "Flex Boxes" ("/flex-boxes").  Combinations of selections can be selected by defining categorires.   [Learn More about Flex Boxes](../components/flipboxes.html).
 
-![Alt Flex Boxes](../../assets/images/pickflexboxes.jpg "Flex Boxes")
+![Alt Flex Boxes](../../assets/images/pickflexboxes.jpg "Flex Boxes"){: .theImage}
 
 ## Frequently Asked Questions
 
 The Frequently Asked Questions custom function grabs data from "reference-data/FAQS" blog entry and displays the questions/answers in an accordian style list.  Each museum will have a separate tab, and separate questions based on CSV format data. [Learn More about FAQS](../components/faq.html).
 
-![Alt Frequently Asked Questions](../../assets/images/pickfaqs.jpg "Frequently Asked Questions")
+![Alt Frequently Asked Questions](../../assets/images/pickfaqs.jpg "Frequently Asked Questions"){: .theImage}
 
 ## Address/Hours/Admission
 
-![Alt Address Box](../../assets/images/pickaddress.jpg "Address Box")
+![Alt Address Box](../../assets/images/pickaddress.jpg "Address Box"){: .theImage}
 
 ## Locations
 
-![Alt Map and Directions](../../assets/images/pickdirections.jpg "Map and Directions")
+![Alt Map and Directions](../../assets/images/pickdirections.jpg "Map and Directions"){: .theImage}
 
 ## Calendars
 
-![Alt Calendars](../../assets/images/pickcalendars.jpg "Calendars")
+![Alt Calendars](../../assets/images/pickcalendars.jpg "Calendars"){: .theImage}
 
 ## Donor Wall
 
-![Alt Donor Wall](../../assets/images/pickdonorwall.jpg "Donor Wall")
+![Alt Donor Wall](../../assets/images/pickdonorwall.jpg "Donor Wall"){: .theImage}
 
 ## Sub Menu
 
-![Alt Sub Menu](../../assets/images/picksubmenu.jpg "Sub Menu")
+![Alt Sub Menu](../../assets/images/picksubmenu.jpg "Sub Menu"){: .theImage}
