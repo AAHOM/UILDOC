@@ -22,7 +22,7 @@ all pages.  The icons displayed are saved in /reference-data/iconbar.  [Learn Mo
 
 The category list is a list of standard categories and associated groupings.  This list is
 used primarily for grid filtering.  The categories are saved in /reference-data/categories as
-a code block in CSV format. [Learn More about the Category List](../reference/refcategory.html).
+a code block in CSV format. [Learn More about the Category List](../reference/refcategories.html).
 
 ![Alt Categories](../../assets/images/referencecategories.jpg "Categories"){: .theImage}
 
