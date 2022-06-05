@@ -25,18 +25,26 @@ block and edit the content as CSV data.
     <tr>
     <td>A</td>
     <td>Group</td>
-    <td>Valid grouping name
+    <td>The group name given here must match a group name from the Category Groups CSV
+      file, column A.
      </td>
   </tr>
   <tr>
     <td>B</td>
     <td>Category</td>
-    <td>Category Name</td>
+    <td>Category Name.  This name should match blog category names where given
+    in blog or event items</td>
   </tr>
   <tr>
     <td>C</td>
-    <td>HideYesNo</td>
-    <td>Setting to Yes will hide his field.  The field will be ignored.</td>
+    <td>Hide YesNo</td>
+    <td>Setting to Yes will hide his field.  The field will be ignored.
+    valid values are:
+      <ul><li>Yes</li>
+        <li>No</li>
+        <li>or blank (no value)</li>
+      </ul>
+    </td></td>
   </tr>
   </tbody>
 </table>
