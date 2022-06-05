@@ -24,19 +24,26 @@ block and edit the content as CSV data.
     <tr>
     <td>A</td>
     <td>Group</td>
-    <td>Valid grouping name
+    <td>This name must be unique among all group names in column A.   It is used
+      as the key in column A of the Categories CSV data file.
      </td>
   </tr>
   <tr>
     <td>B</td>
     <td>DisplayName</td>
-    <td>Name that is displayed when referencing this group</td>
+    <td>This is the name that is displayed when referencing this group, generally
+    in a grid filtering display.</td>
   </tr>
   <tr>
     <td>C</td>
     <td>Type</td>
     <td>Identifies if this group should be displayed as
-    radio buttons or checkboxes</td>
+    <strong>Radio</strong> buttons or <strong>Checkboxes</strong>
+    valid values are:
+      <ul><li>Radio</li>
+        <li>Checkbox</li>
+      </ul>
+    </td>
   </tr>
   </tbody>
 </table>
