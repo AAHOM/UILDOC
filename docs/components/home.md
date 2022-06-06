@@ -64,6 +64,9 @@ The Frequently Asked Questions custom function grabs data from "reference-data/F
 
 ## Donor Wall
 
+The DonorWall displays donors grouped by total amount of donations in accordion style.  It
+also allows searching for donor strings.  Donors are also identified as **Endowment Contributor**, "**Staff**" or "**Trustee**".  [Learn More about Donors Wall](../components/donorwall.html).
+
 ![Alt Donor Wall](../../assets/images/pickdonorwall.jpg "Donor Wall"){: .theImage}
 
 ## Sub Menu
