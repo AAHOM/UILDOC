@@ -146,7 +146,8 @@ $(document).ready(function() {
 
 **Reference Data**
 
-/reference-data/category-groups
+[/reference-data/categories](../reference/refcategories.html).
+[/reference-data/category-groups](../reference/refcatgroups.html).
 
 **Return Value:**
 
