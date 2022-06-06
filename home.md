@@ -24,9 +24,11 @@ blog items are within a blog identifed as "**Reference Data**".  However there a
 
 [Learn More about reference data](docs/reference/home.html).
 
-### Catch All
+### General Information
 
-Catch all for everything else 
+Here you will find general information about the website such as colors used, fonts used, icons displayed, blogs created, categories etc.
+
+[Learn More about website general information](docs/general/home.html).
 
 ### Services
 
