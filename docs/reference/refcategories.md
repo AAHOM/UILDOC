@@ -18,33 +18,34 @@ block and edit the content as CSV data.
 <table class="ws-table-all notranslate">
   <tbody>
     <tr class="tableTop">
-    <td style="width:20px">Column</td>
-    <td style="width:120px">Label</td>
-    <td>Description</td>
+      <td style="width:20px">Column</td>
+      <td style="width:120px">Label</td>
+      <td>Description</td>
     </tr>
     <tr>
-    <td>A</td>
-    <td>Group</td>
-    <td>The group name given here must match a group name from the Category Groups CSV
-      file, column A.
-     </td>
-  </tr>
-  <tr>
-    <td>B</td>
-    <td>Category</td>
-    <td>Category Name.  This name should match blog category names where given
-    in blog or event items</td>
-  </tr>
+      <td>A</td>
+      <td>Group</td>
+      <td>The group name given here must match a group name from the Category Groups CSV
+        file, column A.
+      </td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Category</td>
+      <td>Category Name.  This name should match blog category names where given
+      in blog or event items</td>
+    </tr>
   <tr>
     <td>C</td>
     <td>Hide YesNo</td>
     <td>Setting to Yes will hide his field.  The field will be ignored.
     valid values are:
-      <ul><li>Yes</li>
+      <ul>
+        <li>Yes</li>
         <li>No</li>
         <li>or blank (no value)</li>
       </ul>
-    </td></td>
+    </td>
   </tr>
   </tbody>
 </table>
