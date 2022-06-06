@@ -22,6 +22,8 @@ Various services that the website depends on.
 
 Custom functions that are used by the website to display non-SquareSpace standard features.   I.e. dynamically embedding display from Google spreadsheet data. 
 
+[Learn More about available components](/components/home.html).
+
 ### Functions
 
 Misc functions called by the components.
