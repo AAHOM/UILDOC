@@ -5,9 +5,11 @@ parent: Reference
 nav_order: 5
 ---
 
-# Donor Wall
+# Reference Data - Donor Wall
 
-Lists of donors in accordian style by defined breakpoints.
+Lists of donors in accordian style by defined breakpoints.  Default breakpoints are:
+
+
 
 To edit Donor Wall, navigate to Reference-data -> Donor Wall.  Open the first code
 block and edit the content as CSV data.

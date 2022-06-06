@@ -5,7 +5,7 @@ parent: Reference
 nav_order: 3
 ---
 
-# Categories
+# Reference Data - Categories
 
 This list of category names and groupings are used internally in various places.  Specifically, they are used in filtering grid displays.   However the use is not
 limited to grids.  The category data is saved in a page code block in CSV format.

@@ -5,7 +5,7 @@ parent: Reference
 nav_order: 2
 ---
 
-# Icon Bar
+# Reference Data - Icon Bar
 
 Icon Bars appear either attached to the top header image and/or the bottom footer on
 all pages.  The icons displayed are saved in /reference-data/iconbar

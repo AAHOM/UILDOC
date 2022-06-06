@@ -5,7 +5,7 @@ parent: Reference
 nav_order: 4
 ---
 
-# Category Groups
+# Reference Data - Category Groups
 
 The category groups define the label and type of input used for filtering.  Each grouping has three parts; (1) Group Name, (2) Display Label and (3) Input Type.
 
