@@ -7,8 +7,6 @@ nav_order: 28
 
 ### Donor Wall
 
-List of donors
-
 Lists of donors in accordian style by defined breakpoints.
 
 **Used On Pages**

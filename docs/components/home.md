@@ -68,4 +68,7 @@ The Frequently Asked Questions custom function grabs data from "reference-data/F
 
 ## Sub Menu
 
+Menu bar for sub-menu items.  These are found on the "Learn" pages to help navigation between learn pages.  On mobile devices the menu is an wrapped in an accordion and compressed by default to save some space.  Content for submenu bar is in a code block
+of the SubMenu List reference-data blog.  [Learn More about Submenu Bar](../components/menubar.html).
+
 ![Alt Sub Menu](../../assets/images/picksubmenu.jpg "Sub Menu"){: .theImage}
