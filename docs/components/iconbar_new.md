@@ -56,7 +56,7 @@ $( document ).ready(function() {
 
 **Reference Data**
 
-[/reference-data/icon-bar](../reference/reficonbar.html).
+- [/reference-data/icon-bar](../reference/reficonbar.html).
 
 **Return Value:**
 
