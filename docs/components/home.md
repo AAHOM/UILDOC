@@ -75,3 +75,9 @@ Menu bar for sub-menu items.  These are found on the "Learn" pages to help navig
 of the SubMenu List reference-data blog.  [Learn More about Submenu Bar](../components/menubar.html).
 
 ![Alt Sub Menu](../../assets/images/picksubmenu.jpg "Sub Menu"){: .theImage}
+
+## Embedded Iframe
+
+You can embed a page from the UIL website into the page of a separate website.  When this is done, headers and footers are hidden with "display:none" CSS attribute. Otherwise this is a basic iFrame embed and initial height/width will be honored.  [Learn More about Embedding Iframes](../components/iframe.html).
+
+![Alt Embedded Iframe](../../assets/images/embediframe.jpg "Embedded Iframe"){: .theImage}
