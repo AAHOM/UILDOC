@@ -27,6 +27,6 @@ As an example, to create a field trips iframe page.
 <iframe id="iFrame1" src="http://www.uildev.com/field-trips-iframe" frameborder="0" scrolling="yes" style="height:1500px;width: 100%;overflow-y:scroll;"/>
 </iframe>
 ```
-**Menu Bar Screenshot**
+**Embedded Iframe Screenshot**
 
 ![Alt Embedded Iframe](../../assets/images/embediframe.jpg "Embedded Iframe"){: .theImage}
