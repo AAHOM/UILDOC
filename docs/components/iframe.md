@@ -24,8 +24,8 @@ As an example, to create a field trips iframe page.
 - On the remote site, include the iframe tag, using the slug from the field trips iframe page.
 
 ```
-<iframe id="iFrame1" src="http://www.uildev.com/field-trips-iframe" frameborder="0" scrolling="yes" style="height:1500px;width: 100%;overflow-y:scroll;"/>
-</iframe>
+<iframe id="iFrame1" src="http://www.unityinlearning.org/field-trips-iframe" frameborder="0" scrolling="yes" style="height:1500px;width: 100%;overflow-y:scroll;"/>
+     </iframe>
 ```
 **Embedded Iframe Screenshot**
 
