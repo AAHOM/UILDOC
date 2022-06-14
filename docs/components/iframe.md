@@ -21,6 +21,8 @@ As an example, to create a field trips iframe page.
 - In Settings, **Duplicate** page
 - Name the duplicate page **Field Trips Iframe**
 - Move the new page to the **Embedded Iframes** folder
+- Edit to remove un-necessary blocks.
+- Save modified page
 - On the remote site, include the iframe tag, using the slug from the field trips iframe page.
 
 ```
