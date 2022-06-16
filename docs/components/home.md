@@ -40,7 +40,7 @@ A list of team members found in the SquareSpace blog “Team Members” can be d
 
 ## Flex Boxes
 
-Flip Boxes are individual slide shows that flip to the back side when hovered (or clicked on mobile devices).  The backside displays a short excerpt along with a link to the appropriate content.   [Learn More about Flex Boxes](../components/flipboxes.html).
+Flip Boxes are individual slide shows that flip to the back side when hovered (or clicked on mobile devices).  The backside displays a short excerpt along with a link to the appropriate content.   [Learn More about Flex Boxes](../components/flexboxes.html).
 
 ![Alt Flex Boxes](../../assets/images/pickflexboxes.jpg "Flex Boxes"){: .theImage}
 
