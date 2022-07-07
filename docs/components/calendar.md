@@ -88,6 +88,9 @@ $(document).ready(function() {
 <div id="mailChimpWrapper"></div>
 ```
 
+**Note:** the backtic usage in "findcats".  Using the backtic, instead of quote,
+allows us to use multiple lines more easily.
+
 **Reference Data**
 
 None
