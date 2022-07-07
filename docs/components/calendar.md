@@ -57,10 +57,12 @@ All attributes are optional, the defaults are defined.
     <tr>
       <td>Sections</td>
       <td>A nested array of pairs (slug and display title).</td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
      <td>FindCats</td>
      <td>A comma delimited string of categories to include.</td>
+     <td>&nbsp;</td>
     </tr>
   </tbody>
 </table>
