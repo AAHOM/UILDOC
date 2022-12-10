@@ -172,7 +172,7 @@ footnote section.
 
 **NOTE about Anonymous**
 
-Anonymous donors are identified by setting the **name** to "**Anonymous**".  All Anonymous donors withing a group will be totaled up and presented as a single donor entry with the total number of donors indicated in parentheses. 
+Anonymous donors are identified by setting the **name** to "**Anonymous**".  All Anonymous donors within a group will be totaled up and presented as a single donor entry with the total number of donors indicated in parentheses. 
 
 ...
 Anonymous (3) 
