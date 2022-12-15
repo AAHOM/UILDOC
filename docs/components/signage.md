@@ -57,11 +57,7 @@ All attributes are optional, the defaults are defined.
     </tr>
     <tr>
       <td><em>Refresh</em></td>
-      <td>
-        <ul>
-          <li>Integer number of minutes to wait and refresh data from calendar</li>
-        </ul>
-      </td>
+        <li>Integer number of minutes to wait and refresh data from calendar</li>
       <td>True</td>
     </tr>
   </tbody>
