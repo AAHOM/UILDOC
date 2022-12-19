@@ -113,6 +113,7 @@ $(document).ready(function() {
 You can dynamically override defaults by adding a parameter to the linking url as:
 
 ```
+date=mm/dd/yy (set current date)
 refresh=n  (where n is a number of minutes)
 slick=yes (where value is "yes" or "no", default is "yes", enabled)
 speed=n (where n is a number of seconds)
