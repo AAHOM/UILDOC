@@ -108,6 +108,23 @@ $(document).ready(function() {
 
 **NOTE:** The previous code block needs to go into the page "Advanced" section, rather than embeded as a code block on the page content, as others are done.   This is because the code completely removes the page content and replaces with custom html code.  
 
+**Overrides:**
+
+You can dynamically override defaults by adding a parameter to the linking url as:
+
+```
+refresh=n  (where n is a number of minutes)
+slick=yes (where value is "yes" or "no", default is "yes", enabled)
+speed=n (where n is a number of seconds)
+fontsize=n (where n is an multiplier number, default is 1)
+```
+
+**Example URL with Overrides**
+
+...
+https://discoverscienceandnature.org/signage-test?date=12/31/22&speed=10&refresh=1
+...
+
 **Reference Data**
 
 *reference-data blog: Signage Display (Images)*
