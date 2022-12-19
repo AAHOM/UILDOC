@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Signage Display <span class="new">(12/15/22)</span>
+title: Signage Display <span class="new">(12/19/22)</span>
 parent: Components
 nav_order: 65
 ---
