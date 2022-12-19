@@ -122,9 +122,9 @@ fontsize=n (where n is an multiplier number, default is 1)
 
 **Example URL with Overrides**
 
-...
+```
 https://discoverscienceandnature.org/signage-test?date=12/31/22&speed=10&refresh=1
-...
+```
 
 **Reference Data**
 
