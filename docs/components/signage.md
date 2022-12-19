@@ -72,6 +72,11 @@ All attributes are optional, the defaults are defined.
         <li>Integer number of seconds for the carousel to move to the next slide</li>
       <td>default = 10 seconds</td>
     </tr>
+    <tr>
+      <td><em>Fontsize</em></td>
+        <li>Numeric multiplier to increase font size</li>
+      <td>default = 1</td>
+    </tr>
   </tbody>
 </table>
 
@@ -94,9 +99,9 @@ $(document).ready(function() {
 		'',
 		'signage',
 		{ 
-      refresh: 60, 
-      slick: 'yes',
-      speed: 10} ); 
+			refresh: 60, 
+			slick: 'yes',
+			speed: 10} ); 
   })
 </script>
 ```
