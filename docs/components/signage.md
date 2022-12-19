@@ -58,7 +58,19 @@ All attributes are optional, the defaults are defined.
     <tr>
       <td><em>Refresh</em></td>
         <li>Integer number of minutes to wait and refresh data from calendar</li>
-      <td>null - no refresh</td>
+      <td>Default = 60 minutes</td>
+    </tr>
+    <tr>
+      <td><em>Slick</em></td>
+        <li>Enables or disables the carousel sliding of happening today box.  This
+        only impacts the display if enough events happen on the current day
+      to cause it to overflow.</li>
+      <td>"Yes" = enabled, "No" = disabled</td>
+    </tr>
+    <tr>
+      <td><em>Speed</em></td>
+        <li>Integer number of seconds for the carousel to move to the next slide</li>
+      <td>default = 10 seconds</td>
     </tr>
   </tbody>
 </table>
@@ -66,23 +78,24 @@ All attributes are optional, the defaults are defined.
 **Example code block for control**
 
 ```
-<<!-- Digial signage -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/AAHOM/UIL@2c25fdb/signage.min.js"></script>
-<link rel='stylesheet' href="https://cdn.jsdelivr.net/gh/AAHOM/UIL@c0888ad/signage.min.css" />
-
+<!-- Digial signage -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/AAHOM/UIL@03b73c5/signage.min.js"></script>
+<link rel='stylesheet' href="https://cdn.jsdelivr.net/gh/AAHOM/UIL@7b1f01d/signage.min.css" />
 <script>
 $(document).ready(function() {
 
-  // Add the ID we need to build the page from 
+	// Add the ID we need to build the page from 
   $('body').prepend('<div id="signageDiv"></div>');
   // Hide the SquareSpace content
   $('#siteWrapper').hide();  
 
-  collectionControl(
-    '#signageDiv',
-    '',
-    'signage',
-    { refresh: 60} ); 
+	collectionControl(
+		'#signageDiv',
+		'',
+		'signage',
+		{ refresh: 60, 
+			slick: 'yes',
+			speed: 10} ); 
 })
 </script>
 ```
