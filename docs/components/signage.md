@@ -93,10 +93,11 @@ $(document).ready(function() {
 		'#signageDiv',
 		'',
 		'signage',
-		{ refresh: 60, 
-			slick: 'yes',
-			speed: 10} ); 
-})
+		{ 
+      refresh: 60, 
+      slick: 'yes',
+      speed: 10} ); 
+  })
 </script>
 ```
 
