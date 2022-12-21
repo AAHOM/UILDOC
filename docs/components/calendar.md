@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MailChimp <span class="new">(07/07/22)</span>
+title: MailChimp <span class="new">(12/21/22)</span>
 parent: Components 
 nav_order: 64
 ---
@@ -73,19 +73,19 @@ All attributes are optional, the defaults are defined.
 <script>
 $(document).ready(function() {
   theControl('#mailChimpWrapper',
-    ['announcements','promotions'],
-     'mailchimp',
-     {sections:
-       [
-         ['announcements','Announcements'],
-         ['promotions','Promotions']
-       ],
-      findcats: `challenger center,
-        Leslie Science & Nature Center`
-     }
-     );
+            ['announcements'],
+             'mailchimp',
+             {sections: 
+               [
+                 ['announcements','Announcements']
+               ],
+              findcats: []
+             }
+             );
 })
 </script>
+<div id="target">
+</div>
 <div id="mailChimpWrapper"></div>
 ```
 
