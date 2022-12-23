@@ -30,11 +30,11 @@ Outputs HTML code to be pasted into a MailChimp campaign
     </tr>
     <tr>
       <td><em>Collection Slug</em></td>
-      <td>No defined collection is needed, leave blank.</td>
+      <td>Comma delimited list of collection slugs to use.</td>
     </tr>
     <tr>
       <td><em>Display Type</em></td>
-      <td>Required.<br>Identifies the display type requested.  For calendars must be "calendars".  These are case sensitive parameters. </td>
+      <td>Required.<br>Identifies the display type requested.  For MailChimp must be "mailchimp".  This is a case sensitive parameter. </td>
     </tr>
     <tr>
       <td><em>Attributes</em></td>
@@ -55,11 +55,6 @@ All attributes are optional, the defaults are defined.
      <td>Default</td>
     </tr>
     <tr>
-      <td>Sections</td>
-      <td>A nested array of pairs (slug and display title).</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
      <td>FindCats</td>
      <td>A comma delimited string of categories to include.</td>
      <td>&nbsp;</td>
@@ -72,16 +67,11 @@ All attributes are optional, the defaults are defined.
 ```
 <script>
 $(document).ready(function() {
-  theControl('#mailChimpWrapper',
-            ['announcements'],
-             'mailchimp',
-             {sections: 
-               [
-                 ['announcements','Announcements']
-               ],
-              findcats: []
-             }
-             );
+  collectionControl(
+  	'#mailChimpWrapper',
+    'announcements, outreach-1',
+     'mailchimp'
+  );
 })
 </script>
 <div id="target">
