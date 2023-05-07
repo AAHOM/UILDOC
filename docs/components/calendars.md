@@ -141,16 +141,6 @@ All attributes are optional, the defaults are defined.
       </td>
       <td>False</td>
     </tr>
-    <tr>
-      <td><em>OpenFirst</em></td>
-      <td>
-        <ul>
-          <li>True=Automatically open the first faq question for the selected museum.</li>
-          <li>False=All faq questions closed on initial open.</li>
-        </ul>
-      </td>
-      <td>False</td>
-    </tr>
   </tbody>
 </table>
 
