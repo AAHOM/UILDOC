@@ -141,6 +141,85 @@ All attributes are optional, the defaults are defined.
       </td>
       <td>False</td>
     </tr>
+    <tr>
+      <td>showPrint</td>
+      <td>
+        <ul>
+          <li>True=Google parameter to show print button</li>
+          <li>False=Hide print button.</li>
+        </ul>
+      </td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>showTabs</td>
+      <td>
+        <ul>
+          <li>True=Google parameter to show tabs button</li>
+          <li>False=Hide tabs button.</li>
+        </ul>
+      </td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>showTitle</td>
+      <td>
+        <ul>
+          <li>True=Google parameter to show title</li>
+          <li>False=Hide title.</li>
+        </ul>
+      </td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>showName</td>
+      <td>
+        <ul>
+          <li>True=Google parameter to show name</li>
+          <li>False=Hide name.</li>
+        </ul>
+      </td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>showNav</td>
+      <td>
+        <ul>
+          <li>True=Google parameter to show Nav</li>
+          <li>False=Hide nav.</li>
+        </ul>
+      </td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>showDate</td>
+      <td>
+        <ul>
+          <li>True=Google parameter to show Date</li>
+          <li>False=Hide date.</li>
+        </ul>
+      </td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>showTz</td>
+      <td>
+        <ul>
+          <li>True=Google parameter to show Tz</li>
+          <li>False=Hide tz.</li>
+        </ul>
+      </td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>mode</td>
+      <td>
+        <ul>
+          <li>Google parameter to set mode (MONTH, AGENDA)</li>
+        </ul>
+      </td>
+      <td>False</td>
+    </tr>
   </tbody>
 </table>
 
