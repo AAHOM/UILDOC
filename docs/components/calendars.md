@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Faqs <span class="new">(06/04/22)</span>
+title: Calendars <span class="new">(05/07/23)</span>
 parent: Components
 nav_order: 65
 ---
