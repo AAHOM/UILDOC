@@ -2,7 +2,7 @@
 layout: default
 title: Calendars <span class="new">(05/07/23)</span>
 parent: Components
-nav_order: 65
+nav_order: 2.2
 ---
 
 ### Calendar of Events
